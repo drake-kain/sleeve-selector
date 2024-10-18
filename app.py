@@ -177,19 +177,14 @@ def get_girth_when_worn(internal_diameter, sleeve_diameter):
     if internal_diameter == 'N/A':
         return 'N/A'
     else:
-        print(f"sleeve diameter - {sleeve_diameter}")
         # get shaft thickness 
         sleeve_thickness = sleeve_diameter - internal_diameter
-        print(f"thickness - {sleeve_thickness}")
         # get shaft + user diameter for total diameter
         total_diameter = sleeve_thickness + user_diameter
-        print(f"diameter - {total_diameter}")
         # subtract 10% for compression
         squished_diameter = total_diameter * 0.9
-        print(f"squashed - {squished_diameter}")
         # convert diameter back to circumference
         total_circumference = (squished_diameter * math.pi) if squished_diameter >= sleeve_diameter else (sleeve_diameter * math.pi)
-        print(f"total - {total_circumference}")
         # return the final worn circumference
         return round(total_circumference, 2)
 
