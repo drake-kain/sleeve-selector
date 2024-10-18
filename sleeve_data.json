@@ -1,0 +1,734 @@
+[
+	{
+		"Model": "Architect",
+		"Length": 8,
+		"Girth": 6.13,
+		"Girth Category": "Medium"
+	},
+	{
+		"Model": "Artist",
+		"Length": 9.5,
+		"Girth": 6.5,
+		"Girth Category": "Medium"
+	},
+	{
+		"Model": "Assistant Professor",
+		"Length": 6.5,
+		"Girth": 6,
+		"Girth Category": "Low"
+	},
+	{
+		"Model": "Barista Large",
+		"Length": 8.25,
+		"Girth": 7.5,
+		"Girth Category": "Large"
+	},
+	{
+		"Model": "Barista Medium",
+		"Length": 7.5,
+		"Girth": 7.25,
+		"Girth Category": "Medium"
+	},
+	{
+		"Model": "Barista Small",
+		"Length": 7,
+		"Girth": 6.75,
+		"Girth Category": "Medium"
+	},
+	{
+		"Model": "Barney",
+		"Length": 8,
+		"Girth": 5.6,
+		"Girth Category": "Low"
+	},
+	{
+		"Model": "Barney 10",
+		"Length": 10,
+		"Girth": 5.6,
+		"Girth Category": "Low"
+	},
+	{
+		"Model": "Bartender",
+		"Length": 9,
+		"Girth": 5.88,
+		"Girth Category": "Low"
+	},
+	{
+		"Model": "BodyBuilder",
+		"Length": 8,
+		"Girth": 8.75,
+		"Girth Category": "Large"
+	},
+	{
+		"Model": "Centaur Large",
+		"Length": 10.75,
+		"Girth": 8,
+		"Girth Category": "Fantasy"
+	},
+	{
+		"Model": "Centaur Medium",
+		"Length": 9.5,
+		"Girth": 7.25,
+		"Girth Category": "Fantasy"
+	},
+	{
+		"Model": "Centaur Small",
+		"Length": 8,
+		"Girth": 6.5,
+		"Girth Category": "Fantasy"
+	},
+	{
+		"Model": "Chef",
+		"Length": 10.5,
+		"Girth": 7.75,
+		"Girth Category": "Large"
+	},
+	{
+		"Model": "Chuck",
+		"Length": 7.5,
+		"Girth": 5.5,
+		"Girth Category": "Low"
+	},
+	{
+		"Model": "Cucummer",
+		"Length": 8.25,
+		"Girth": 8.5,
+		"Girth Category": "Fantasy"
+	},
+	{
+		"Model": "Dragonslayer",
+		"Length": 9.25,
+		"Girth": 8,
+		"Girth Category": "Large"
+	},
+	{
+		"Model": "English Gentleman",
+		"Length": 7.5,
+		"Girth": 5.1,
+		"Girth Category": "Fantasy"
+	},
+	{
+		"Model": "Franken III",
+		"Length": 7.25,
+		"Girth": 5.5,
+		"Girth Category": "Low"
+	},
+	{
+		"Model": "FrankenJunior",
+		"Length": 8.25,
+		"Girth": 6.5,
+		"Girth Category": "Medium"
+	},
+	{
+		"Model": "Frankendong",
+		"Length": 10.25,
+		"Girth": 7.75,
+		"Girth Category": "Large"
+	},
+	{
+		"Model": "Girthy Boy A - 7x2",
+		"Length": 7,
+		"Girth": 6.28,
+		"Girth Category": "Medium"
+	},
+	{
+		"Model": "Girthy Boy B - 7x2.2",
+		"Length": 7,
+		"Girth": 6.91,
+		"Girth Category": "Medium"
+	},
+	{
+		"Model": "Girthy Boy C - 7x2.4",
+		"Length": 7,
+		"Girth": 7.53,
+		"Girth Category": "Medium"
+	},
+	{
+		"Model": "Girthy Boy D - 7x2.6",
+		"Length": 7,
+		"Girth": 8.17,
+		"Girth Category": "Medium"
+	},
+	{
+		"Model": "Girthy Boy E - 7x2.8",
+		"Length": 7,
+		"Girth": 8.8,
+		"Girth Category": "Medium"
+	},
+	{
+		"Model": "Griffin Large",
+		"Length": 9,
+		"Girth": 8.5,
+		"Girth Category": "Large"
+	},
+	{
+		"Model": "Griffin Medium",
+		"Length": 8,
+		"Girth": 7.625,
+		"Girth Category": "Medium"
+	},
+	{
+		"Model": "Griffin Small",
+		"Length": 7,
+		"Girth": 6.875,
+		"Girth Category": "Small"
+	},
+	{
+		"Model": "Guru",
+		"Length": 9,
+		"Girth": 7.38,
+		"Girth Category": "Large"
+	},
+	{
+		"Model": "Hog A 5.75",
+		"Length": 5.75,
+		"Girth": 5.31,
+		"Girth Category": "Low"
+	},
+	{
+		"Model": "Hog B 6.5",
+		"Length": 6.5,
+		"Girth": 6.13,
+		"Girth Category": "Medium"
+	},
+	{
+		"Model": "Hog C 7.25",
+		"Length": 7.25,
+		"Girth": 6.75,
+		"Girth Category": "Medium"
+	},
+	{
+		"Model": "Hog D 8",
+		"Length": 8,
+		"Girth": 7.72,
+		"Girth Category": "Large"
+	},
+	{
+		"Model": "Hog E 9.25",
+		"Length": 9.25,
+		"Girth": 7.88,
+		"Girth Category": "Large"
+	},
+	{
+		"Model": "Hog F 9.5",
+		"Length": 9.5,
+		"Girth": 8.75,
+		"Girth Category": "Large"
+	},
+	{
+		"Model": "Horny Ridgeback Large",
+		"Length": 10,
+		"Girth": 9.25,
+		"Girth Category": "Fantasy L"
+	},
+	{
+		"Model": "Horny Ridgeback Medium",
+		"Length": 9.25,
+		"Girth": 7.75,
+		"Girth Category": "Fantasy L"
+	},
+	{
+		"Model": "Horny Ridgeback Small",
+		"Length": 8,
+		"Girth": 7,
+		"Girth Category": "Fantasy M"
+	},
+	{
+		"Model": "ICON",
+		"Length": 12,
+		"Girth": 11,
+		"Girth Category": "Large"
+	},
+	{
+		"Model": "Kraken Large",
+		"Length": 9,
+		"Girth": 7,
+		"Girth Category": "Large"
+	},
+	{
+		"Model": "Kraken Medium",
+		"Length": 8,
+		"Girth": 6,
+		"Girth Category": "Medium"
+	},
+	{
+		"Model": "Kraken Small",
+		"Length": 7,
+		"Girth": 5.25,
+		"Girth Category": "Small"
+	},
+	{
+		"Model": "Legend 10",
+		"Length": 10,
+		"Girth": 8.25,
+		"Girth Category": "Legend"
+	},
+	{
+		"Model": "Legend 5.5",
+		"Length": 5.5,
+		"Girth": 4.88,
+		"Girth Category": "Legend"
+	},
+	{
+		"Model": "Legend 6",
+		"Length": 6,
+		"Girth": 5,
+		"Girth Category": "Legend"
+	},
+	{
+		"Model": "Legend 6.5",
+		"Length": 6.5,
+		"Girth": 5.38,
+		"Girth Category": "Legend"
+	},
+	{
+		"Model": "Legend 7",
+		"Length": 7,
+		"Girth": 5.75,
+		"Girth Category": "Legend"
+	},
+	{
+		"Model": "Legend 7.5",
+		"Length": 7.5,
+		"Girth": 6.25,
+		"Girth Category": "Legend"
+	},
+	{
+		"Model": "Legend 8",
+		"Length": 8,
+		"Girth": 6.63,
+		"Girth Category": "Legend"
+	},
+	{
+		"Model": "Legend 8.5",
+		"Length": 8.5,
+		"Girth": 7.13,
+		"Girth Category": "Legend"
+	},
+	{
+		"Model": "Legend 8.75 Original",
+		"Length": 8.75,
+		"Girth": 6.88,
+		"Girth Category": "Legend"
+	},
+	{
+		"Model": "Legend 9",
+		"Length": 9,
+		"Girth": 7.38,
+		"Girth Category": "Legend"
+	},
+	{
+		"Model": "Legend 9.5",
+		"Length": 9.5,
+		"Girth": 7.88,
+		"Girth Category": "Legend"
+	},
+	{
+		"Model": "Legend Long",
+		"Length": 10.25,
+		"Girth": 7,
+		"Girth Category": "Legend"
+	},
+	{
+		"Model": "Long Stroker",
+		"Length": 9.5,
+		"Girth": 6.75,
+		"Girth Category": "Medium"
+	},
+	{
+		"Model": "Lova 10.25 x 7.5",
+		"Length": 10,
+		"Girth": 7.5,
+		"Girth Category": "Curved"
+	},
+	{
+		"Model": "Lova 7.5 x 5.5",
+		"Length": 7.5,
+		"Girth": 5.5,
+		"Girth Category": "Curved"
+	},
+	{
+		"Model": "Lova 7.5 x 7.625",
+		"Length": 7.5,
+		"Girth": 7.63,
+		"Girth Category": "Curved"
+	},
+	{
+		"Model": "Lova 8 x 7.25",
+		"Length": 8,
+		"Girth": 7.25,
+		"Girth Category": "Curved"
+	},
+	{
+		"Model": "Lova 9 x 6.675",
+		"Length": 9,
+		"Girth": 6.68,
+		"Girth Category": "Curved"
+	},
+	{
+		"Model": "Lova 9 x 7.5",
+		"Length": 9,
+		"Girth": 7.5,
+		"Girth Category": "Curved"
+	},
+	{
+		"Model": "Lumberjack",
+		"Length": 14,
+		"Girth": 7.85,
+		"Girth Category": "Large"
+	},
+	{
+		"Model": "Mailman",
+		"Length": 8,
+		"Girth": 6.67,
+		"Girth Category": "Medium"
+	},
+	{
+		"Model": "Mailman 10",
+		"Length": 10,
+		"Girth": 6.67,
+		"Girth Category": "Medium"
+	},
+	{
+		"Model": "Mailman 6",
+		"Length": 6,
+		"Girth": 5.02,
+		"Girth Category": "Low"
+	},
+	{
+		"Model": "Mailman 7",
+		"Length": 7,
+		"Girth": 5.81,
+		"Girth Category": "Low"
+	},
+	{
+		"Model": "Mammoth",
+		"Length": 9.5,
+		"Girth": 7,
+		"Girth Category": "Large"
+	},
+	{
+		"Model": "Merman",
+		"Length": 9.75,
+		"Girth": 7.88,
+		"Girth Category": "Fantasy"
+	},
+	{
+		"Model": "Mr. Slim",
+		"Length": 10,
+		"Girth": 5.75,
+		"Girth Category": "Low"
+	},
+	{
+		"Model": "Mr. Thick",
+		"Length": 10.25,
+		"Girth": 6,
+		"Girth Category": "Medium"
+	},
+	{
+		"Model": "Ninja",
+		"Length": 7,
+		"Girth": 5.5,
+		"Girth Category": "Low"
+	},
+	{
+		"Model": "OMG",
+		"Length": 9.75,
+		"Girth": 9.75,
+		"Girth Category": "Curved"
+	},
+	{
+		"Model": "Phantom A",
+		"Length": 6.25,
+		"Girth": 5,
+		"Girth Category": "Low"
+	},
+	{
+		"Model": "Phantom B",
+		"Length": 7,
+		"Girth": 5.25,
+		"Girth Category": "Low"
+	},
+	{
+		"Model": "Phantom C",
+		"Length": 7.5,
+		"Girth": 6,
+		"Girth Category": "Medium"
+	},
+	{
+		"Model": "Phantom D",
+		"Length": 8,
+		"Girth": 6.25,
+		"Girth Category": "Medium"
+	},
+	{
+		"Model": "Phantom E",
+		"Length": 8.5,
+		"Girth": 6.5,
+		"Girth Category": "Medium"
+	},
+	{
+		"Model": "Phantom F",
+		"Length": 9,
+		"Girth": 7.125,
+		"Girth Category": "Medium"
+	},
+	{
+		"Model": "Pool Boy",
+		"Length": 8,
+		"Girth": 5.9,
+		"Girth Category": "Medium"
+	},
+	{
+		"Model": "Prizefighter",
+		"Length": 9.38,
+		"Girth": 7.13,
+		"Girth Category": "Medium"
+	},
+	{
+		"Model": "Professor",
+		"Length": 8,
+		"Girth": 7,
+		"Girth Category": "Medium"
+	},
+	{
+		"Model": "Quarterback",
+		"Length": 7.75,
+		"Girth": 6.13,
+		"Girth Category": "Medium"
+	},
+	{
+		"Model": "Repeater Peter",
+		"Length": 8.75,
+		"Girth": 6.38,
+		"Girth Category": "Fantasy"
+	},
+	{
+		"Model": "Samurai",
+		"Length": 8.5,
+		"Girth": 6.28,
+		"Girth Category": "Medium"
+	},
+	{
+		"Model": "Squid Boy",
+		"Length": 8,
+		"Girth": 6.25,
+		"Girth Category": "Fantasy"
+	},
+	{
+		"Model": "Steamboat Capt.",
+		"Length": 8,
+		"Girth": 6.75,
+		"Girth Category": "Large"
+	},
+	{
+		"Model": "Steamboat Capt.",
+		"Length": 9.25,
+		"Girth": 7.19,
+		"Girth Category": "Large"
+	},
+	{
+		"Model": "Steamboat Capt. XXL",
+		"Length": 10.25,
+		"Girth": 7.75,
+		"Girth Category": "Large"
+	},
+	{
+		"Model": "Step It Up - 6x1.5",
+		"Length": 6,
+		"Girth": 4.7,
+		"Girth Category": "Low"
+	},
+	{
+		"Model": "Step It Up - 6x1.6",
+		"Length": 6,
+		"Girth": 5,
+		"Girth Category": "Low"
+	},
+	{
+		"Model": "Step It Up - 6x1.8",
+		"Length": 6,
+		"Girth": 5.65,
+		"Girth Category": "Low"
+	},
+	{
+		"Model": "Step It Up - 6x2",
+		"Length": 6,
+		"Girth": 6.28,
+		"Girth Category": "Low"
+	},
+	{
+		"Model": "Step It Up - 7x1.6",
+		"Length": 7,
+		"Girth": 5,
+		"Girth Category": "Low"
+	},
+	{
+		"Model": "Step It Up - 7x1.8",
+		"Length": 6,
+		"Girth": 5.65,
+		"Girth Category": "Low"
+	},
+	{
+		"Model": "Step It Up - 7x2",
+		"Length": 6,
+		"Girth": 6.28,
+		"Girth Category": "Low"
+	},
+	{
+		"Model": "Strongman",
+		"Length": 8.25,
+		"Girth": 7,
+		"Girth Category": "Medium"
+	},
+	{
+		"Model": "Sumo",
+		"Length": 8.25,
+		"Girth": 8,
+		"Girth Category": "Fantasy"
+	},
+	{
+		"Model": "Support Sleeve 7x1.8",
+		"Length": 7,
+		"Girth": 5.65,
+		"Girth Category": "Small"
+	},
+	{
+		"Model": "Support Sleeve 7x1.9",
+		"Length": 7,
+		"Girth": 5.97,
+		"Girth Category": "Small"
+	},
+	{
+		"Model": "Support Sleeve 7x2",
+		"Length": 7,
+		"Girth": 6.28,
+		"Girth Category": "Small"
+	},
+	{
+		"Model": "Support Sleeve 7x2.1",
+		"Length": 7,
+		"Girth": 6.6,
+		"Girth Category": "Small"
+	},
+	{
+		"Model": "Support Sleeve 7x2.2",
+		"Length": 7,
+		"Girth": 6.91,
+		"Girth Category": "Medium"
+	},
+	{
+		"Model": "Support Sleeve 7x2.3",
+		"Length": 7,
+		"Girth": 7.22,
+		"Girth Category": "Medium"
+	},
+	{
+		"Model": "Support Sleeve 7x2.4",
+		"Length": 7,
+		"Girth": 7.53,
+		"Girth Category": "Medium"
+	},
+	{
+		"Model": "Tickle Me Pickle",
+		"Length": 7.75,
+		"Girth": 6.25,
+		"Girth Category": "Fantasy"
+	},
+	{
+		"Model": "Timmy 7.5",
+		"Length": 7.5,
+		"Girth": 5.5,
+		"Girth Category": "Low"
+	},
+	{
+		"Model": "Timmy 8",
+		"Length": 8,
+		"Girth": 5.6,
+		"Girth Category": "Low"
+	},
+	{
+		"Model": "Timmy 8.5",
+		"Length": 8.5,
+		"Girth": 5.63,
+		"Girth Category": "Low"
+	},
+	{
+		"Model": "Timmy 9",
+		"Length": 9,
+		"Girth": 6,
+		"Girth Category": "Medium"
+	},
+	{
+		"Model": "Tsukebito",
+		"Length": 7,
+		"Girth": 6.31,
+		"Girth Category": "Fantasy"
+	},
+	{
+		"Model": "Unicorn",
+		"Length": 7.88,
+		"Girth": 8.32,
+		"Girth Category": "Fantasy"
+	},
+	{
+		"Model": "Vlad",
+		"Length": 11,
+		"Girth": 7,
+		"Girth Category": "Medium"
+	},
+	{
+		"Model": "Woodland Elf",
+		"Length": 9.5,
+		"Girth": 7.07,
+		"Girth Category": "Medium"
+	},
+	{
+		"Model": "Woodland God",
+		"Length": 8,
+		"Girth": 9.42,
+		"Girth Category": "Large"
+	},
+	{
+		"Model": "Woodland Wizard",
+		"Length": 10.5,
+		"Girth": 7.85,
+		"Girth Category": "Large"
+	},
+	{
+		"Model": "Woodsman",
+		"Length": 8,
+		"Girth": 5.96,
+		"Girth Category": "Low"
+	},
+	{
+		"Model": "XL Shogun",
+		"Length": 9.25,
+		"Girth": 7.22,
+		"Girth Category": "Medium"
+	},
+	{
+		"Model": "Yeti Large",
+		"Length": 9,
+		"Girth": 7.5,
+		"Girth Category": "Large"
+	},
+	{
+		"Model": "Yeti Medium",
+		"Length": 8,
+		"Girth": 6.25,
+		"Girth Category": "Medium"
+	},
+	{
+		"Model": "Yeti Small",
+		"Length": 7,
+		"Girth": 5.5,
+		"Girth Category": "Small"
+	},
+	{
+		"Model": "Yokozuna",
+		"Length": 10,
+		"Girth": 8.75,
+		"Girth Category": "Fantasy"
+	}
+]
