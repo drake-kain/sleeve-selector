@@ -1,3 +1,4 @@
 [theme]
 base="dark"
-primaryColor="purple"
+primaryColor="#e900ff"
+font="sans serif"
