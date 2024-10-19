@@ -127,7 +127,7 @@ with col1:
     # slider for diameter
     # user_diameter = st.selectbox("Penis Diameter in Inches", diameter_options)
     user_diameter = st.select_slider(
-        "Penis Diameter in Inches",
+        "Erect Penis Diameter in Inches",
         diameter_options,
         help="Measure at the base, middle, and tip, then take the average"
     )
@@ -135,7 +135,7 @@ with col1:
 with col2:
     # user_length = st.selectbox("Penis Length in Inches", length_options)
     user_length = st.select_slider(
-        "Penis Length in Inches",
+        "Erect Penis Length in Inches",
         length_options,
         help="Measure from base to tip, not pressing into the pubic bone"
     )
