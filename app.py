@@ -78,7 +78,7 @@ def load_json_data(file_path):
 
 # Load the JSON data (cached)
 with st.spinner('Loading products...'):
-    data = load_json_data('sleeve_data.json')
+    data = load_json_data('product_index.json')
 
 # Create options for select boxes
 diameter_options = [round(x, 3) for x in list(frange(1, 3.125, 0.125))]
@@ -160,11 +160,8 @@ with st.expander("Advanced Filters"):
 @st.cache_data
 def add_calculated_fields(data):
   for obj in data:
-      # Calculate sleeve_external_diameter
-      obj['Diameter'] = round(obj['Girth'] / math.pi, 3)
-      
       # Calculate max_internal_length
-      if 'girth' in obj['Model'].lower():
+      if 'girthy' in obj['Model'].lower():
         obj['Max Internal Length'] = obj['Length'] - 0.5
       else:
         obj['Max Internal Length'] = obj['Length'] - 1
@@ -226,17 +223,43 @@ st.header(header_text, help="The below sleeves fit your penis based on their ava
 show_more = st.toggle("Show more detailed sleeve measurements")
 
 if show_more:
-    # Drop the 'sleeve_external_diameter' column before displaying the dataframe
-    filtered_df = filtered_df.drop(columns=['Recommended Diameter']) 
+    displayed_column_order = [
+        'Model',
+        'URL',
+        'Length', 
+        'Max Internal Length', 
+        'Girth', 
+        'Diameter', 
+        'Girth Category', 
+        'Recommended Internal Dimensions', 
+        'Girth When Worn'
+    ]
 else:
-    # Drop the 'sleeve_external_diameter' column before displaying the dataframe
-    filtered_df = filtered_df.drop(columns=['Diameter', 'Recommended Diameter', 'Max Internal Length'])  
+    displayed_column_order = [
+        'Model',
+        'URL',
+        'Length', 
+        'Girth', 
+        'Recommended Internal Dimensions', 
+        'Girth When Worn'
+    ]
 
 # Display the filtered dataframe
 if filtered_df.empty:
     st.warning("No compatible sleeves with the selected filters.")
 else:
-    st.dataframe(filtered_df, hide_index=True, use_container_width=True)
+    st.dataframe(
+        filtered_df, 
+        column_config={
+            "URL": st.column_config.LinkColumn(
+                "Store Link",
+                display_text="Link"
+            )
+        },
+        hide_index=True, 
+        use_container_width=True,
+        column_order=displayed_column_order
+    )
 
 
 # Footer
