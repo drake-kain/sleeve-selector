@@ -160,11 +160,14 @@ with st.expander("Advanced Filters"):
 @st.cache_data
 def add_calculated_fields(data):
   for obj in data:
-      # Calculate max_internal_length
-      if 'girthy' in obj['Model'].lower():
+    # Calculate max_internal_length
+    if 'girthy' in obj['Model'].lower():
         obj['Max Internal Length'] = obj['Length'] - 0.5
-      else:
+    else:
         obj['Max Internal Length'] = obj['Length'] - 1
+    # add reference hash
+    hash = "?hash=U2FsdGVkX18ktvbAO4N2cENwuIXMnPrUuO8ciYPKC52hXSg2iTHGmKDIGyPC1WGNMLFPIPgJvIMjr0KRkdhCgPF9+IdbosGELowyqQau4gN32mnpbFutimq4JqLM+CRSFJqd5Uq8GnGBVLKEAvB8qw=="
+    obj['URL'] = f"{obj['URL']}{hash}"
   return data
 
 # calcuate new fields
@@ -220,6 +223,7 @@ filtered_df = df[
 header_text =f":green[{len(filtered_df)}] Compatible Sleeves"
 st.header(header_text, help="The below sleeves fit your penis based on their available internal dimensions")
 
+# show toggle for additional columns
 show_more = st.toggle("Show more detailed sleeve measurements")
 
 if show_more:
@@ -265,7 +269,4 @@ else:
 # Footer
 st.write('''
     Products Copyright [Blissfull Creations](https://inviteee.to/i/uEvPz). Have feedback? [Submit it!](https://www.reddit.com/message/compose/?to=drake_kain)
-''')        
-
-# product sitemap
-# https://blissfullcreations.com/sitemap_products_1.xml?from=6936439685318&to=9511550091558
+''')
