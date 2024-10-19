@@ -160,9 +160,17 @@ with st.expander("Advanced Filters"):
 @st.cache_data
 def add_calculated_fields(data):
   for obj in data:
-    # Calculate max_internal_length
+    # Adjust Max Internal Lengths for specific sleeves
+    # Girthy boy only requires 0.5" lower than total length
     if 'girthy' in obj['Model'].lower():
         obj['Max Internal Length'] = obj['Length'] - 0.5
+    # Curved sleeves (Lova Lova) require 2 inches between insertable and total length
+    elif 'curved' in obj['Girth Category'].lower():
+        obj['Max Internal Length'] = obj['Length'] - 2
+    # prize fighter is a special curved, with max internal of 6.5 inches
+    elif 'prizefighter' in obj['Model'].lower():
+        obj['Max Internal Length'] = 6.5
+    # default for all other sleeves is 1 inch of space, exceptions for dual/triple density
     else:
         obj['Max Internal Length'] = obj['Length'] - 1
     # add reference hash
