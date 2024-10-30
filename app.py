@@ -196,11 +196,15 @@ def get_girth_when_worn(internal_diameter, sleeve_diameter):
         # return the final worn circumference
         return round(total_circumference, 2)
 
+def round_user_length_to_nearest_half(number):
+    # Multiply by 2, round down (floor), round to the closest whole number, then divide by 2
+    return round(math.floor(number * 2)) / 2
+
 # Recalculate the dynamic fields
 for obj in data:
     # Calculate recommended_diameter based on the selected user_diameter and object's Girth Category
     obj['Recommended Diameter'] = get_recommended_opening_diameter(user_diameter, obj['Girth Category'])
-    internal_dimensions = f"{user_length} x {obj['Recommended Diameter']}"
+    internal_dimensions = f"{round_user_length_to_nearest_half(user_length)} x {obj['Recommended Diameter']}"
     obj['Recommended Internal Dimensions'] = internal_dimensions
     obj['Girth When Worn'] = get_girth_when_worn(obj['Recommended Diameter'], obj['Diameter'])
 
