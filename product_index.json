@@ -1,1091 +1,1082 @@
 [
   {
-    "URL": "https://blissfullcreations.com/products/the-architect-triple-zone-dual-density-sleeve",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/products/blissfull-creations-us-sleeve-the-architect-triple-zone-dual-density-sleeve-33329366696134.jpg?v=1664635549",
-    "Model": "Architect",
+    "URL": "https://blissfullcreations.com/product/6-in-x-1-5-in-step-it-up/",
+    "Model": "6 x 1.5 Step It Up",
+    "Length": 6,
+    "Girth": 4.7,
+    "Diameter": 1.5,
+    "Girth Category": "Low",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-6-x-1-5-step-it-up-32701620224198_d1d3c916-caa7-4725-ac7b-81fbf3544011.jpg?v=1692377259"
+  },
+  {
+    "URL": "https://blissfullcreations.com/product/6-in-x-1-6-in-step-it-up/",
+    "Model": "6 x 1.6 Step It Up",
+    "Length": 6,
+    "Girth": 5,
+    "Diameter": 1.59,
+    "Girth Category": "Low",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-6-x-1-6-step-it-up-32701612458182_fc629179-e345-4fee-865e-e63df82e19f7.jpg?v=1692379238"
+  },
+  {
+    "URL": "https://blissfullcreations.com/product/6-in-x-1-8-in-step-it-up/",
+    "Model": "6 x 1.8 Step It Up",
+    "Length": 6,
+    "Girth": 5.65,
+    "Diameter": 1.8,
+    "Girth Category": "Low",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-6-x-1-8-step-it-up-32701619732678_3e8150f1-4c66-491e-b958-91713e678fd6.jpg?v=1692385215"
+  },
+  {
+    "URL": "https://blissfullcreations.com/product/6-in-x-2-in-step-it-up/",
+    "Model": "6 x 2 Step It Up",
+    "Length": 6,
+    "Girth": 6.28,
+    "Diameter": 2,
+    "Girth Category": "Low",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-6-x-2-step-it-up-32701631135942_28c618ce-c7b9-495f-ba3f-40041eea4ac8.jpg?v=1692384590"
+  },
+  {
+    "URL": "https://blissfullcreations.com/product/7-in-x-1-6-in-step-it-up/",
+    "Model": "7 x 1.6 Step It Up",
+    "Length": 7,
+    "Girth": 5,
+    "Diameter": 1.59,
+    "Girth Category": "Low",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-7-x-1-6-step-it-up-32701615571142_38a072b8-41d1-4d35-a11d-dfe2f54fb3c3.jpg?v=1692385498"
+  },
+  {
+    "URL": "https://blissfullcreations.com/product/7-in-x-1-8-in-blissfull-creations-support-sleeve-3-0/",
+    "Model": "7 x 1.8 Support 3.0",
+    "Length": 7,
+    "Girth": 5.65,
+    "Diameter": 1.8,
+    "Girth Category": "Small",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/3ddiagrambcssv3.jpg?v=1711392041"
+  },
+  {
+    "URL": "https://blissfullcreations.com/product/7-in-x-1-8-in-step-it-up/",
+    "Model": "7 x 1.8 Step It Up",
+    "Length": 6,
+    "Girth": 5.65,
+    "Diameter": 1.8,
+    "Girth Category": "Low",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-7-x-1-8-step-it-up-32701623795910_a8c2fcd6-d84b-4cd4-a459-653f63d277db.jpg?v=1692385892"
+  },
+  {
+    "URL": "https://blissfullcreations.com/product/7-in-x-1-9-in-blissfull-creations-support-sleeve-3-0/",
+    "Model": "7 x 1.9 Support 3.0",
+    "Length": 7,
+    "Girth": 5.97,
+    "Diameter": 1.9,
+    "Girth Category": "Small",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/3ddiagrambcssv3_787e799e-0f8b-4ae6-8018-4f0ad57127b6.jpg?v=1711395627"
+  },
+  {
+    "URL": "https://blissfullcreations.com/product/7-in-x-2-in-step-it-up/",
+    "Model": "7 x 2 Step It Up",
+    "Length": 6,
+    "Girth": 6.28,
+    "Diameter": 2,
+    "Girth Category": "Low",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-7-x-2-step-it-up-32701630316742_be69d28f-c6d2-43a7-8a5e-61619a2ac9e3.jpg?v=1692386073"
+  },
+  {
+    "URL": "https://blissfullcreations.com/product/7-in-x-2-0-in-blissfull-creations-support-sleeve-3-0/",
+    "Model": "7 x 2.0 Support 3.0",
+    "Length": 7,
+    "Girth": 6.28,
+    "Diameter": 2,
+    "Girth Category": "Small",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/3ddiagrambcssv3_06041ced-1749-4158-993a-a0967f74cb97.jpg?v=1711395846"
+  },
+  {
+    "URL": "https://blissfullcreations.com/product/7-in-x-2-1-in-blissfull-creations-support-sleeve-3-0/",
+    "Model": "7 x 2.1 Support 3.0",
+    "Length": 7,
+    "Girth": 6.6,
+    "Diameter": 2.1,
+    "Girth Category": "Small",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/3ddiagrambcssv3_21d4adf1-3a96-42fc-8717-aa57f3535d11.jpg?v=1711396173"
+  },
+  {
+    "URL": "https://blissfullcreations.com/product/7-in-x-2-2-in-blissfull-creations-support-sleeve-3-0/",
+    "Model": "7 x 2.2 Support 3.0",
+    "Length": 7,
+    "Girth": 6.91,
+    "Diameter": 2.2,
+    "Girth Category": "Medium",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/3ddiagrambcssv3_3143a856-a61e-41c5-9a8d-a2ce526f82bb.jpg?v=1711396419"
+  },
+  {
+    "URL": "https://blissfullcreations.com/product/7-in-x-2-3-in-blissfull-creations-support-sleeve-3-0/",
+    "Model": "7 x 2.3 Support 3.0",
+    "Length": 7,
+    "Girth": 7.22,
+    "Diameter": 2.3,
+    "Girth Category": "Medium",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/3ddiagrambcssv3_bd5a5b64-f371-46b1-a6c1-800f66275e2d.jpg?v=1711397249"
+  },
+  {
+    "URL": "https://blissfullcreations.com/product/7-in-x-2-4-in-blissfull-creations-support-sleeve-3-0/",
+    "Model": "7 x 2.4 Support 3.0",
+    "Length": 7,
+    "Girth": 7.53,
+    "Diameter": 2.4,
+    "Girth Category": "Medium",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/3ddiagrambcssv3_906d0767-2c2a-486e-9153-6a0334bac6d4.jpg?v=1711397575"
+  },
+  {
+    "URL": "https://blissfullcreations.com/product/the-architect-triple-zone-dual-density-sleeve/",
+    "Model": "Architect Triple Zone Dual Density",
     "Length": 8,
     "Girth": 6.13,
     "Diameter": 1.95,
-    "Girth Category": "Medium"
+    "Girth Category": "Medium",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/products/blissfull-creations-us-sleeve-the-architect-triple-zone-dual-density-sleeve-33329366696134.jpg?v=1664635549"
   },
   {
-    "URL": "https://blissfullcreations.com/products/the-artist-1",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_6220_3a840fa5-deb3-4fb6-9e44-1320eaf030fb.jpg?v=1692733751",
+    "URL": "https://blissfullcreations.com/product/the-artist/",
     "Model": "Artist",
     "Length": 9.5,
     "Girth": 6.5,
     "Diameter": 2.07,
-    "Girth Category": "Medium"
+    "Girth Category": "Medium",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_6220_3a840fa5-deb3-4fb6-9e44-1320eaf030fb.jpg?v=1692733751"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-assistant-professor",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/smallersleeveprofileB_ff8b0db0-635a-4801-b152-558657a36d0c.jpg?v=1693250879",
+    "URL": "https://blissfullcreations.com/product/the-assistant-professor/",
     "Model": "Assistant Professor",
     "Length": 6.5,
     "Girth": 6,
     "Diameter": 1.91,
-    "Girth Category": "Low"
+    "Girth Category": "Low",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/smallersleeveprofileB_ff8b0db0-635a-4801-b152-558657a36d0c.jpg?v=1693250879"
   },
   {
-    "URL": "https://blissfullcreations.com/products/the-barista-large-1",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0776_e2e6cb02-e043-4da2-a437-98a59f8fa817.jpg?v=1693335917",
+    "URL": "https://blissfullcreations.com/product/the-barista-large/",
     "Model": "Barista Large",
     "Length": 8.25,
     "Girth": 7.5,
     "Diameter": 2.39,
-    "Girth Category": "Large"
+    "Girth Category": "Large",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0776_e2e6cb02-e043-4da2-a437-98a59f8fa817.jpg?v=1693335917"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-barista-medium",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0781_175eade7-7748-400c-8f3c-91a0cfbcddd2.jpg?v=1692902569",
+    "URL": "https://blissfullcreations.com/product/the-barista-medium/",
     "Model": "Barista Medium",
     "Length": 7.5,
     "Girth": 7.25,
     "Diameter": 2.31,
-    "Girth Category": "Medium"
+    "Girth Category": "Medium",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0781_175eade7-7748-400c-8f3c-91a0cfbcddd2.jpg?v=1692902569"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-barista-small-sleeve-tall",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0509_af0bcbfd-ade0-4fc8-ae32-1e5d04ded2b0.jpg?v=1692903211",
+    "URL": "https://blissfullcreations.com/product/the-barista-small/",
     "Model": "Barista Small",
     "Length": 7,
     "Girth": 6.75,
     "Diameter": 2.15,
-    "Girth Category": "Medium"
+    "Girth Category": "Medium",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0509_af0bcbfd-ade0-4fc8-ae32-1e5d04ded2b0.jpg?v=1692903211"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-barney",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_6174_6e321582-21a0-4a4c-93d2-210b1525de05.jpg?v=1692645284",
+    "URL": "https://blissfullcreations.com/product/the-barney/",
     "Model": "Barney",
     "Length": 8,
     "Girth": 5.6,
     "Diameter": 1.78,
-    "Girth Category": "Low"
+    "Girth Category": "Low",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_6174_6e321582-21a0-4a4c-93d2-210b1525de05.jpg?v=1692645284"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-10-in-barney",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0031_9a48fecd-3a96-4014-92cf-9f5b37b79c18.jpg?v=1692645893",
+    "URL": "https://blissfullcreations.com/product/the-barney-10/",
     "Model": "Barney 10",
     "Length": 10,
     "Girth": 5.6,
     "Diameter": 1.78,
-    "Girth Category": "Low"
+    "Girth Category": "Low",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0031_9a48fecd-3a96-4014-92cf-9f5b37b79c18.jpg?v=1692645893"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-bartender",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-bartender-33855428264134_487d315c-a3ce-4112-a340-dd874aea50fa.jpg?v=1692646401",
+    "URL": "https://blissfullcreations.com/product/the-bartender/",
     "Model": "Bartender",
     "Length": 9,
     "Girth": 5.88,
     "Diameter": 1.87,
-    "Girth Category": "Low"
+    "Girth Category": "Low",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-bartender-33855428264134_487d315c-a3ce-4112-a340-dd874aea50fa.jpg?v=1692646401"
   },
   {
-    "URL": "https://blissfullcreations.com/products/the-centaur-penis-sleeve",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0900_564947cf-c390-48a8-a1d3-189955153dc5.jpg?v=1693338628",
-    "Model": "Centaur Large",
+    "URL": "https://blissfullcreations.com/product/the-centaur-hungus-large/",
+    "Model": "Centaur Hungus Large",
     "Length": 10.75,
     "Girth": 8,
     "Diameter": 2.55,
-    "Girth Category": "Fantasy"
+    "Girth Category": "Fantasy",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0900_564947cf-c390-48a8-a1d3-189955153dc5.jpg?v=1693338628"
   },
   {
-    "URL": "https://blissfullcreations.com/products/the-centaur-penis-sleeve",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0900_564947cf-c390-48a8-a1d3-189955153dc5.jpg?v=1693338628",
-    "Model": "Centaur Medium",
-    "Length": 9.5,
-    "Girth": 7.25,
-    "Diameter": 2.31,
-    "Girth Category": "Fantasy"
-  },
-  {
-    "URL": "https://blissfullcreations.com/products/the-centaur-penis-sleeve",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0900_564947cf-c390-48a8-a1d3-189955153dc5.jpg?v=1693338628",
-    "Model": "Centaur Small",
-    "Length": 8,
-    "Girth": 6.5,
-    "Diameter": 2.07,
-    "Girth Category": "Fantasy"
-  },
-  {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-chef",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-chef-33163902714054_83bfc263-1751-4f26-83f6-40a2bd0f7c0a.jpg?v=1693423045",
+    "URL": "https://blissfullcreations.com/product/the-chef/",
     "Model": "Chef",
     "Length": 10.5,
     "Girth": 7.75,
     "Diameter": 2.47,
-    "Girth Category": "Large"
+    "Girth Category": "Large",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-chef-33163902714054_83bfc263-1751-4f26-83f6-40a2bd0f7c0a.jpg?v=1693423045"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-chuck",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-chuck-31100090712262_c1157f1a-c68e-42b5-ba9d-67f232b185bb.jpg?v=1692647004",
+    "URL": "https://blissfullcreations.com/product/the-chuck/",
     "Model": "Chuck",
     "Length": 7.5,
     "Girth": 5.5,
     "Diameter": 1.75,
-    "Girth Category": "Low"
+    "Girth Category": "Low",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-chuck-31100090712262_c1157f1a-c68e-42b5-ba9d-67f232b185bb.jpg?v=1692647004"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-cucummer",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-cucummer-31100095660230_014ed680-350c-455d-ad58-966a1fa5869e.jpg?v=1693423560",
+    "URL": "https://blissfullcreations.com/product/the-cucummer/",
     "Model": "Cucummer",
     "Length": 8.25,
     "Girth": 8.5,
     "Diameter": 2.71,
-    "Girth Category": "Fantasy"
+    "Girth Category": "Fantasy",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-cucummer-31100095660230_014ed680-350c-455d-ad58-966a1fa5869e.jpg?v=1693423560"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-dragonslayer",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-dragonslayer-31100090745030_4bb31450-d367-46ff-9f08-bd71157b348d.jpg?v=1693424379",
+    "URL": "https://blissfullcreations.com/product/the-dragonslayer/",
     "Model": "Dragonslayer",
     "Length": 9.25,
     "Girth": 8,
     "Diameter": 2.55,
-    "Girth Category": "Large"
+    "Girth Category": "Large",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-dragonslayer-31100090745030_4bb31450-d367-46ff-9f08-bd71157b348d.jpg?v=1693424379"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-english-gentleman",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-english-gentleman-31013938987206_41d513d9-4d48-4307-8713-3a583e55bc3f.jpg?v=1693425889",
+    "URL": "https://blissfullcreations.com/product/the-english-gentleman/",
     "Model": "English Gentleman",
     "Length": 7.5,
     "Girth": 5.1,
     "Diameter": 1.62,
-    "Girth Category": "Fantasy"
+    "Girth Category": "Fantasy",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-english-gentleman-31013938987206_41d513d9-4d48-4307-8713-3a583e55bc3f.jpg?v=1693425889"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-franken-iii-penis-sleeve",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0013_2a30db93-d740-4d2b-9052-2e4c68fd1b19.jpg?v=1692647211",
+    "URL": "https://blissfullcreations.com/product/the-franken-iii/",
     "Model": "Franken III",
     "Length": 7.25,
     "Girth": 5.5,
     "Diameter": 1.75,
-    "Girth Category": "Low"
+    "Girth Category": "Low",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0013_2a30db93-d740-4d2b-9052-2e4c68fd1b19.jpg?v=1692647211"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-franken-jr",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-franken-jr-34255532589254_6a4d36d4-d70b-44f0-9e74-5464950bbd0b.jpg?v=1692903570",
+    "URL": "https://blissfullcreations.com/product/the-franken-jr/",
     "Model": "Franken Jr",
     "Length": 8.25,
     "Girth": 6.5,
     "Diameter": 2.07,
-    "Girth Category": "Medium"
+    "Girth Category": "Medium",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-franken-jr-34255532589254_6a4d36d4-d70b-44f0-9e74-5464950bbd0b.jpg?v=1692903570"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-frankendong",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-frankendong-34255443755206_f578bdf2-3b73-44c5-aba6-601697d97a77.jpg?v=1693508625",
+    "URL": "https://blissfullcreations.com/product/the-frankendong/",
     "Model": "Frankendong",
     "Length": 10.25,
     "Girth": 7.75,
     "Diameter": 2.47,
-    "Girth Category": "Large"
+    "Girth Category": "Large",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-frankendong-34255443755206_f578bdf2-3b73-44c5-aba6-601697d97a77.jpg?v=1693508625"
   },
   {
-    "URL": "https://blissfullcreations.com/products/girthy-boy-sleeve-a-7-x-2",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1179.jpg?v=1722974484",
-    "Model": "Girthy Boy A - 7x2",
+    "URL": "https://blissfullcreations.com/product/girthy-boy-sleeve-a-7-x-2/",
+    "Model": "Girthy Boy A 7 x 2",
     "Length": 7,
     "Girth": 6.28,
     "Diameter": 2,
-    "Girth Category": "Medium"
+    "Girth Category": "Medium",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1179.jpg?v=1722974484"
   },
   {
-    "URL": "https://blissfullcreations.com/products/girthy-boy-sleeve-a-7-x-2-2-copy",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1179_16a094b9-2320-4d8d-9629-caaf7e5615f0.jpg?v=1722974504",
-    "Model": "Girthy Boy B - 7x2.2",
+    "URL": "https://blissfullcreations.com/product/girthy-boy-sleeve-b-7-x-2-2/",
+    "Model": "Girthy Boy B 7 x 2.2",
     "Length": 7,
     "Girth": 6.91,
     "Diameter": 2.2,
-    "Girth Category": "Medium"
+    "Girth Category": "Medium",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1179_16a094b9-2320-4d8d-9629-caaf7e5615f0.jpg?v=1722974504"
   },
   {
-    "URL": "https://blissfullcreations.com/products/girthy-boy-sleeve-c-7-x-2-4",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1179_b2f7b397-bd3b-41e2-b899-eabade0a152b.jpg?v=1722974521",
-    "Model": "Girthy Boy C - 7x2.4",
+    "URL": "https://blissfullcreations.com/product/girthy-boy-sleeve-c-7-x-2-4/",
+    "Model": "Girthy Boy C 7 x 2.4",
     "Length": 7,
     "Girth": 7.53,
     "Diameter": 2.4,
-    "Girth Category": "Medium"
+    "Girth Category": "Medium",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1179_b2f7b397-bd3b-41e2-b899-eabade0a152b.jpg?v=1722974521"
   },
   {
-    "URL": "https://blissfullcreations.com/products/girthy-boy-sleeve-d-7-x-2-6",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1183_ed5e46a8-bf2c-401a-aa78-ccb8cd0d4f3c.jpg?v=1722974546",
-    "Model": "Girthy Boy D - 7x2.6",
+    "URL": "https://blissfullcreations.com/product/girthy-boy-sleeve-d-7-x-2-6/",
+    "Model": "Girthy Boy D 7 x 2.6",
     "Length": 7,
     "Girth": 8.17,
     "Diameter": 2.6,
-    "Girth Category": "Medium"
+    "Girth Category": "Medium",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1183_ed5e46a8-bf2c-401a-aa78-ccb8cd0d4f3c.jpg?v=1722974546"
   },
   {
-    "URL": "https://blissfullcreations.com/products/girthy-boy-sleeve-e-7-x-2-8",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1183_13836cfa-272b-4af1-a3f7-dcbdce319546.jpg?v=1722974562",
-    "Model": "Girthy Boy E - 7x2.8",
+    "URL": "https://blissfullcreations.com/product/girthy-boy-sleeve-e-7-x-2-8/",
+    "Model": "Girthy Boy E 7 x 2.8",
     "Length": 7,
     "Girth": 8.8,
     "Diameter": 2.8,
-    "Girth Category": "Medium"
+    "Girth Category": "Medium",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1183_13836cfa-272b-4af1-a3f7-dcbdce319546.jpg?v=1722974562"
   },
   {
-    "URL": "https://blissfullcreations.com/products/girthy-boy-sleeve-f-7-x-3",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1183.jpg?v=1722974444",
-    "Model": "Girthy Boy F - 7x3",
+    "URL": "https://blissfullcreations.com/product/girthy-boy-sleeve-f-7-x-3/",
+    "Model": "Girthy Boy F 7 x 3",
     "Length": 7,
     "Girth": 9.4,
     "Diameter": 2.99,
-    "Girth Category": "Large"
+    "Girth Category": "Large",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1183.jpg?v=1722974444"
   },
   {
-    "URL": "https://blissfullcreations.com/products/the-griffin",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1140.jpg?v=1718732075",
+    "URL": "https://blissfullcreations.com/product/the-griffin-sleeve/",
     "Model": "Griffin Large",
     "Length": 9,
     "Girth": 8.5,
     "Diameter": 2.71,
-    "Girth Category": "Large"
+    "Girth Category": "Large",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1140.jpg?v=1718732075"
   },
   {
-    "URL": "https://blissfullcreations.com/products/the-griffin",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1140.jpg?v=1718732075",
+    "URL": "https://blissfullcreations.com/product/the-griffin-sleeve/",
     "Model": "Griffin Medium",
     "Length": 8,
     "Girth": 7.625,
     "Diameter": 2.43,
-    "Girth Category": "Medium"
+    "Girth Category": "Medium",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1140.jpg?v=1718732075"
   },
   {
-    "URL": "https://blissfullcreations.com/products/the-griffin",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1140.jpg?v=1718732075",
+    "URL": "https://blissfullcreations.com/product/the-griffin-sleeve/",
     "Model": "Griffin Small",
     "Length": 7,
     "Girth": 6.875,
     "Diameter": 2.19,
-    "Girth Category": "Small"
+    "Girth Category": "Small",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1140.jpg?v=1718732075"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-guru",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-guru-31100098576582_0c7b0678-da46-453f-968d-c2c232672bd7.jpg?v=1693508976",
+    "URL": "https://blissfullcreations.com/product/the-guru/",
     "Model": "Guru",
     "Length": 9,
     "Girth": 7.38,
     "Diameter": 2.35,
-    "Girth Category": "Large"
+    "Girth Category": "Large",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-guru-31100098576582_0c7b0678-da46-453f-968d-c2c232672bd7.jpg?v=1693508976"
   },
   {
-    "URL": "https://blissfullcreations.com/products/variant-copy-of-low-girth",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0934.jpg?v=1697302929",
+    "URL": "https://blissfullcreations.com/product/the-hog-a-5-75-inches/",
     "Model": "Hog A 5.75",
     "Length": 5.75,
     "Girth": 5.31,
     "Diameter": 1.69,
-    "Girth Category": "Low"
+    "Girth Category": "Low",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0934.jpg?v=1697302929"
   },
   {
-    "URL": "https://blissfullcreations.com/products/hog-b-6-5-inches",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0938.jpg?v=1697303928",
+    "URL": "https://blissfullcreations.com/product/the-hog-b-6-5-inches/",
     "Model": "Hog B 6.5",
     "Length": 6.5,
     "Girth": 6.13,
     "Diameter": 1.95,
-    "Girth Category": "Medium"
+    "Girth Category": "Medium",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0938.jpg?v=1697303928"
   },
   {
-    "URL": "https://blissfullcreations.com/products/hog-c-7-25-inches",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0943.jpg?v=1697304372",
+    "URL": "https://blissfullcreations.com/product/the-hog-c-7-25-inches/",
     "Model": "Hog C 7.25",
     "Length": 7.25,
     "Girth": 6.75,
     "Diameter": 2.15,
-    "Girth Category": "Medium"
+    "Girth Category": "Medium",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0943.jpg?v=1697304372"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-hog",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-hog-31100099330246_3f29cd1b-8d76-4527-ae35-2553c8551662.jpg?v=1693509315",
+    "URL": "https://blissfullcreations.com/product/the-hog-d-8-inches/",
     "Model": "Hog D 8",
     "Length": 8,
     "Girth": 7.72,
     "Diameter": 2.46,
-    "Girth Category": "Large"
+    "Girth Category": "Large",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-hog-31100099330246_3f29cd1b-8d76-4527-ae35-2553c8551662.jpg?v=1693509315"
   },
   {
-    "URL": "https://blissfullcreations.com/products/hog-e-9-25-inches",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0943_37c6636f-1735-4cbe-ad19-67cd641f0ae3.jpg?v=1697221957",
+    "URL": "https://blissfullcreations.com/product/the-hog-e-9-25-inches/",
     "Model": "Hog E 9.25",
     "Length": 9.25,
     "Girth": 7.88,
     "Diameter": 2.51,
-    "Girth Category": "Large"
+    "Girth Category": "Large",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0943_37c6636f-1735-4cbe-ad19-67cd641f0ae3.jpg?v=1697221957"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-hog-f-9-50-inches",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0947_02f6e633-65df-4778-bb2d-95fbda3f661f.jpg?v=1697221970",
-    "Model": "Hog F 9.5",
+    "URL": "https://blissfullcreations.com/product/the-hog-f-9-50-inches/",
+    "Model": "Hog F 9.50",
     "Length": 9.5,
     "Girth": 8.75,
     "Diameter": 2.79,
-    "Girth Category": "Large"
+    "Girth Category": "Large",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0947_02f6e633-65df-4778-bb2d-95fbda3f661f.jpg?v=1697221970"
   },
   {
-    "URL": "https://blissfullcreations.com/products/3-sleeve-series-with-tz-and-tdtz-copy",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0881_63d0988a-21eb-4f40-bfc5-4040e144865a.jpg?v=1715630765",
+    "URL": "https://blissfullcreations.com/product/the-horny-ridgeback-penis-sleeve-2/",
     "Model": "Horny Ridgeback Large",
     "Length": 10,
     "Girth": 9.25,
     "Diameter": 2.94,
-    "Girth Category": "Fantasy L"
+    "Girth Category": "Fantasy L",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0881_63d0988a-21eb-4f40-bfc5-4040e144865a.jpg?v=1715630765"
   },
   {
-    "URL": "https://blissfullcreations.com/products/3-sleeve-series-with-tz-and-tdtz-copy",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0881_63d0988a-21eb-4f40-bfc5-4040e144865a.jpg?v=1715630765",
+    "URL": "https://blissfullcreations.com/product/the-horny-ridgeback-penis-sleeve-2/",
     "Model": "Horny Ridgeback Medium",
     "Length": 9.25,
     "Girth": 7.75,
     "Diameter": 2.47,
-    "Girth Category": "Fantasy L"
+    "Girth Category": "Fantasy L",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0881_63d0988a-21eb-4f40-bfc5-4040e144865a.jpg?v=1715630765"
   },
   {
-    "URL": "https://blissfullcreations.com/products/3-sleeve-series-with-tz-and-tdtz-copy",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0881_63d0988a-21eb-4f40-bfc5-4040e144865a.jpg?v=1715630765",
+    "URL": "https://blissfullcreations.com/product/the-horny-ridgeback-penis-sleeve-2/",
     "Model": "Horny Ridgeback Small",
     "Length": 8,
     "Girth": 7,
     "Diameter": 2.23,
-    "Girth Category": "Fantasy M"
+    "Girth Category": "Fantasy M",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0881_63d0988a-21eb-4f40-bfc5-4040e144865a.jpg?v=1715630765"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-icon",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-icon-31100110045382_61b67e99-b27d-4167-8c02-930c3969ac73.jpg?v=1693512810",
-    "Model": "ICON",
+    "URL": "https://blissfullcreations.com/product/the-icon/",
+    "Model": "Icon",
     "Length": 12,
     "Girth": 11,
     "Diameter": 3.5,
-    "Girth Category": "Large"
+    "Girth Category": "Large",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-icon-31100110045382_61b67e99-b27d-4167-8c02-930c3969ac73.jpg?v=1693512810"
   },
   {
-    "URL": "https://blissfullcreations.com/products/the-kraken-sleeve",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1093.jpg?v=1717448399",
+    "URL": "https://blissfullcreations.com/product/the-kraken-sleeve/",
     "Model": "Kraken Large",
     "Length": 9,
     "Girth": 7,
     "Diameter": 2.23,
-    "Girth Category": "Large"
+    "Girth Category": "Large",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1093.jpg?v=1717448399"
   },
   {
-    "URL": "https://blissfullcreations.com/products/the-kraken-sleeve",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1093.jpg?v=1717448399",
+    "URL": "https://blissfullcreations.com/product/the-kraken-sleeve/",
     "Model": "Kraken Medium",
     "Length": 8,
     "Girth": 6,
     "Diameter": 1.91,
-    "Girth Category": "Medium"
+    "Girth Category": "Medium",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1093.jpg?v=1717448399"
   },
   {
-    "URL": "https://blissfullcreations.com/products/the-kraken-sleeve",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1093.jpg?v=1717448399",
+    "URL": "https://blissfullcreations.com/product/the-kraken-sleeve/",
     "Model": "Kraken Small",
     "Length": 7,
     "Girth": 5.25,
     "Diameter": 1.67,
-    "Girth Category": "Small"
+    "Girth Category": "Small",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1093.jpg?v=1717448399"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-legend-10-penis-sleeve",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0740_a667858d-d48e-4798-b7bd-9fbdc30e4089.jpg?v=1693939645",
+    "URL": "https://blissfullcreations.com/product/the-legend-10-penis-sleeve/",
     "Model": "Legend 10",
     "Length": 10,
     "Girth": 8.25,
     "Diameter": 2.63,
-    "Girth Category": "Legend"
+    "Girth Category": "Legend",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0740_a667858d-d48e-4798-b7bd-9fbdc30e4089.jpg?v=1693939645"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-legend-5-5-penis-sleeve",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0806_1ae02c8c-0326-49e3-9591-37b301bfb0af.jpg?v=1693594507",
+    "URL": "https://blissfullcreations.com/product/the-legend-5-5-penis-sleeve/",
     "Model": "Legend 5.5",
     "Length": 5.5,
     "Girth": 4.88,
     "Diameter": 1.55,
-    "Girth Category": "Legend"
+    "Girth Category": "Legend",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0806_1ae02c8c-0326-49e3-9591-37b301bfb0af.jpg?v=1693594507"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-legend-6-penis-sleeve",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0812_9e722e0d-71f4-4432-adde-f4e6c04a9dc6.jpg?v=1693594787",
+    "URL": "https://blissfullcreations.com/product/the-legend-6-penis-sleeve/",
     "Model": "Legend 6",
     "Length": 6,
     "Girth": 5,
     "Diameter": 1.59,
-    "Girth Category": "Legend"
+    "Girth Category": "Legend",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0812_9e722e0d-71f4-4432-adde-f4e6c04a9dc6.jpg?v=1693594787"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-legend-6-5-penis-sleeve",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0817_f20b9dec-1d4c-4146-8c61-35ee7f68fb97.jpg?v=1693595091",
+    "URL": "https://blissfullcreations.com/product/the-legend-6-5-penis-sleeve/",
     "Model": "Legend 6.5",
     "Length": 6.5,
     "Girth": 5.38,
     "Diameter": 1.71,
-    "Girth Category": "Legend"
+    "Girth Category": "Legend",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0817_f20b9dec-1d4c-4146-8c61-35ee7f68fb97.jpg?v=1693595091"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-legend-7-penis-sleeve",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0822_ee906df7-e582-4789-ae33-07659b17f601.jpg?v=1693595287",
+    "URL": "https://blissfullcreations.com/product/the-legend-7-penis-sleeve/",
     "Model": "Legend 7",
     "Length": 7,
     "Girth": 5.75,
     "Diameter": 1.83,
-    "Girth Category": "Legend"
+    "Girth Category": "Legend",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0822_ee906df7-e582-4789-ae33-07659b17f601.jpg?v=1693595287"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-legend-7-5-penis-sleeve",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/front_71aa0ee7-9519-4777-95cb-b22abb105ebe.jpg?v=1693595982",
+    "URL": "https://blissfullcreations.com/product/the-legend-7-5-penis-sleeve/",
     "Model": "Legend 7.5",
     "Length": 7.5,
     "Girth": 6.25,
     "Diameter": 1.99,
-    "Girth Category": "Legend"
+    "Girth Category": "Legend",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/front_71aa0ee7-9519-4777-95cb-b22abb105ebe.jpg?v=1693595982"
   },
   {
-    "URL": "https://blissfullcreations.com/products/the-legend-8-penis-sleeve",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/front_68683290-a36b-4cc3-bea8-baef24db8f7f.jpg?v=1693596209",
+    "URL": "https://blissfullcreations.com/product/the-legend-8-penis-sleeve/",
     "Model": "Legend 8",
     "Length": 8,
     "Girth": 6.63,
     "Diameter": 2.11,
-    "Girth Category": "Legend"
+    "Girth Category": "Legend",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/front_68683290-a36b-4cc3-bea8-baef24db8f7f.jpg?v=1693596209"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-legend-8-5-penis-sleeve",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/front_123621dd-3917-4078-a6e4-20c809639c51.jpg?v=1693596518",
+    "URL": "https://blissfullcreations.com/product/the-legend-8-5-penis-sleeve/",
     "Model": "Legend 8.5",
     "Length": 8.5,
     "Girth": 7.13,
     "Diameter": 2.27,
-    "Girth Category": "Legend"
+    "Girth Category": "Legend",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/front_123621dd-3917-4078-a6e4-20c809639c51.jpg?v=1693596518"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-legend-8-75-original-sleeve",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0475_d7a4995e-875f-466a-beb5-fb0bffe3fee8.jpg?v=1693596874",
+    "URL": "https://blissfullcreations.com/product/the-legend-8-75-original-sleeve/",
     "Model": "Legend 8.75 Original",
     "Length": 8.75,
     "Girth": 6.88,
     "Diameter": 2.19,
-    "Girth Category": "Legend"
+    "Girth Category": "Legend",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0475_d7a4995e-875f-466a-beb5-fb0bffe3fee8.jpg?v=1693596874"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-legend-9-penis-sleeve",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0740_0b88f72f-3e27-4720-9889-f99e36f19283.jpg?v=1693597071",
-    "Model": "Legend 9",
+    "URL": "https://blissfullcreations.com/product/the-legend-9-penis-sleeve-2/",
+    "Model": "Legend 9.2",
     "Length": 9,
     "Girth": 7.38,
     "Diameter": 2.35,
-    "Girth Category": "Legend"
+    "Girth Category": "Legend",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0740_0b88f72f-3e27-4720-9889-f99e36f19283.jpg?v=1693597071"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-legend-9-5-penis-sleeve",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0740_acecab97-8a3a-497a-beb4-c291c8b8db22.jpg?v=1693938808",
+    "URL": "https://blissfullcreations.com/product/the-legend-9-5-penis-sleeve/",
     "Model": "Legend 9.5",
     "Length": 9.5,
     "Girth": 7.88,
     "Diameter": 2.51,
-    "Girth Category": "Legend"
+    "Girth Category": "Legend",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0740_acecab97-8a3a-497a-beb4-c291c8b8db22.jpg?v=1693938808"
   },
   {
-    "URL": "https://blissfullcreations.com/products/long-legend-sleeve",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0982.jpg?v=1706736934",
-    "Model": "Legend Long",
+    "URL": "https://blissfullcreations.com/product/the-long-legend-sleeve/",
+    "Model": "Long Legend",
     "Length": 10.25,
     "Girth": 7,
     "Diameter": 2.23,
-    "Girth Category": "Legend"
+    "Girth Category": "Legend",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0982.jpg?v=1706736934"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-long-stroker",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-long-stroker-31100105818310_c05ff6a2-1c1b-4e36-ab05-c8d3e536e67f.jpg?v=1692906836",
+    "URL": "https://blissfullcreations.com/product/the-long-stroker/",
     "Model": "Long Stroker",
     "Length": 9.5,
     "Girth": 6.75,
     "Diameter": 2.15,
-    "Girth Category": "Medium"
+    "Girth Category": "Medium",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-long-stroker-31100105818310_c05ff6a2-1c1b-4e36-ab05-c8d3e536e67f.jpg?v=1692906836"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-lova-lova-10-25-in-x-7-5-in",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1047.jpg?v=1709664787",
-    "Model": "Lova 10.25 x 7.5",
+    "URL": "https://blissfullcreations.com/product/lova-lova-10-25-in-x-7-5-in/",
+    "Model": "Lova Lova 10.25 x 7.5",
     "Length": 10,
     "Girth": 7.5,
     "Diameter": 2.39,
-    "Girth Category": "Curved"
+    "Girth Category": "Curved",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1047.jpg?v=1709664787"
   },
   {
-    "URL": "https://blissfullcreations.com/products/lova-lova-7-5-x-5-5",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1026.jpg?v=1709660303",
-    "Model": "Lova 7.5 x 5.5",
+    "URL": "https://blissfullcreations.com/product/lova-lova-7-5-in-x-5-5-in/",
+    "Model": "Lova Lova 7.5 x 5.5",
     "Length": 7.5,
     "Girth": 5.5,
     "Diameter": 1.75,
-    "Girth Category": "Curved"
+    "Girth Category": "Curved",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1026.jpg?v=1709660303"
   },
   {
-    "URL": "https://blissfullcreations.com/products/lova-lova-7-5-in-x-7-625-in",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1041_890a6a2d-196f-474f-b044-2d5514ab75bd.jpg?v=1709662882",
-    "Model": "Lova 7.5 x 7.625",
+    "URL": "https://blissfullcreations.com/product/lova-lova-7-5-in-x-7-625-in/",
+    "Model": "Lova Lova 7.5 x 7.625",
     "Length": 7.5,
     "Girth": 7.63,
     "Diameter": 2.43,
-    "Girth Category": "Curved"
+    "Girth Category": "Curved",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1041_890a6a2d-196f-474f-b044-2d5514ab75bd.jpg?v=1709662882"
   },
   {
-    "URL": "https://blissfullcreations.com/products/lova-lova-7-5-x-7-675",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1031.jpg?v=1709840368",
-    "Model": "Lova 8 x 7.25",
+    "URL": "https://blissfullcreations.com/product/lova-lova-8-in-x-7-25-in/",
+    "Model": "Lova Lova 8 x 7.25",
     "Length": 8,
     "Girth": 7.25,
     "Diameter": 2.31,
-    "Girth Category": "Curved"
+    "Girth Category": "Curved",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1031.jpg?v=1709840368"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-lova-lova-9-in-x-6-675-in",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1038.jpg?v=1709667661",
-    "Model": "Lova 9 x 6.675",
+    "URL": "https://blissfullcreations.com/product/lova-lova-9-in-x-6-675-in/",
+    "Model": "Lova Lova 9 x 6.675",
     "Length": 9,
     "Girth": 6.68,
     "Diameter": 2.13,
-    "Girth Category": "Curved"
+    "Girth Category": "Curved",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1038.jpg?v=1709667661"
   },
   {
-    "URL": "https://blissfullcreations.com/products/lova-lova-9-in-x-7-5-in",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1053.jpg?v=1709667544",
-    "Model": "Lova 9 x 7.5",
+    "URL": "https://blissfullcreations.com/product/lova-lova-9-in-x-7-5-in/",
+    "Model": "Lova Lova 9 x 7.5",
     "Length": 9,
     "Girth": 7.5,
     "Diameter": 2.39,
-    "Girth Category": "Curved"
+    "Girth Category": "Curved",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1053.jpg?v=1709667544"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-lumberjack",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-lumberjack-32701633167558_6732f756-5dc8-49cc-b57f-bfa16cf4d5e9.jpg?v=1693940132",
+    "URL": "https://blissfullcreations.com/product/the-lumberjack/",
     "Model": "Lumberjack",
     "Length": 14,
     "Girth": 7.85,
     "Diameter": 2.5,
-    "Girth Category": "Large"
+    "Girth Category": "Large",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-lumberjack-32701633167558_6732f756-5dc8-49cc-b57f-bfa16cf4d5e9.jpg?v=1693940132"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-mailman",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-mailman-31100105621702_d79520ff-01e8-4d37-ad90-755c898e985d.jpg?v=1692989222",
+    "URL": "https://blissfullcreations.com/product/the-mailman/",
     "Model": "Mailman",
     "Length": 8,
     "Girth": 6.67,
     "Diameter": 2.12,
-    "Girth Category": "Medium"
+    "Girth Category": "Medium",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-mailman-31100105621702_d79520ff-01e8-4d37-ad90-755c898e985d.jpg?v=1692989222"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-mailman-10",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0039_443b1c83-088e-4fbd-9db3-7685c986c08a.jpg?v=1693941053",
+    "URL": "https://blissfullcreations.com/product/the-mailman-10/",
     "Model": "Mailman 10",
     "Length": 10,
     "Girth": 6.67,
     "Diameter": 2.12,
-    "Girth Category": "Medium"
+    "Girth Category": "Medium",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0039_443b1c83-088e-4fbd-9db3-7685c986c08a.jpg?v=1693941053"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-mailman-6",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0434_4a0b5ae4-b477-4c3e-9079-71b6875164fe.jpg?v=1692647501",
+    "URL": "https://blissfullcreations.com/product/the-mailman-6/",
     "Model": "Mailman 6",
     "Length": 6,
     "Girth": 5.02,
     "Diameter": 1.6,
-    "Girth Category": "Low"
+    "Girth Category": "Low",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0434_4a0b5ae4-b477-4c3e-9079-71b6875164fe.jpg?v=1692647501"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-mailman-7",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0440_139f1697-f809-41a5-b7c9-83077f5324f2.jpg?v=1692648063",
+    "URL": "https://blissfullcreations.com/product/the-mailman-7/",
     "Model": "Mailman 7",
     "Length": 7,
     "Girth": 5.81,
     "Diameter": 1.85,
-    "Girth Category": "Low"
+    "Girth Category": "Low",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0440_139f1697-f809-41a5-b7c9-83077f5324f2.jpg?v=1692648063"
   },
   {
-    "URL": "https://blissfullcreations.com/products/the-mr-slick-penis-sleeve",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1007.jpg?v=1717606462",
-    "Model": "Merman",
+    "URL": "https://blissfullcreations.com/product/the-merman-fantasy-penis-sleeve/",
+    "Model": "Merman Fantasy",
     "Length": 9.75,
     "Girth": 7.88,
     "Diameter": 2.51,
-    "Girth Category": "Fantasy"
+    "Girth Category": "Fantasy",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1007.jpg?v=1717606462"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-mr-slim",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-mr-slim-32701598892230_57ca86da-ede0-478f-b249-6a895079af65.jpg?v=1692648393",
-    "Model": "Mr. Slim",
+    "URL": "https://blissfullcreations.com/product/the-mr-slick-penis-sleeve/",
+    "Model": "Mr Slick",
+    "Length": 8,
+    "Girth": 4.75,
+    "Diameter": 1.51,
+    "Girth Category": "Low",
+    "Image URL": "https://blissfullcreations.com/wp-content/uploads/2024/11/Mr-Slick-F-1030x1030.jpg"
+  },
+  {
+    "URL": "https://blissfullcreations.com/product/the-mr-slim/",
+    "Model": "Mr Slim",
     "Length": 10,
     "Girth": 5.75,
     "Diameter": 1.83,
-    "Girth Category": "Low"
+    "Girth Category": "Low",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-mr-slim-32701598892230_57ca86da-ede0-478f-b249-6a895079af65.jpg?v=1692648393"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-mr-thick",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-mr-thick-32701602365638_5d2a38c1-1707-4406-927d-0b1d8b699fdb.jpg?v=1692904082",
-    "Model": "Mr. Thick",
+    "URL": "https://blissfullcreations.com/product/the-mr-thick/",
+    "Model": "Mr Thick",
     "Length": 10.25,
     "Girth": 6,
     "Diameter": 1.91,
-    "Girth Category": "Medium"
+    "Girth Category": "Medium",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-mr-thick-32701602365638_5d2a38c1-1707-4406-927d-0b1d8b699fdb.jpg?v=1692904082"
   },
   {
-    "URL": "https://blissfullcreations.com/products/the-ninja-2-0",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1020.jpg?v=1709324894",
+    "URL": "https://blissfullcreations.com/product/my-dirty-little-unicorn/",
+    "Model": "My Dirty Little Unicorn",
+    "Length": 7.88,
+    "Girth": 8.32,
+    "Diameter": 2.65,
+    "Girth Category": "Fantasy",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0525_b5e92a4c-e924-4d1d-9bb4-d6281802659b.jpg?v=1692644492"
+  },
+  {
+    "URL": "https://blissfullcreations.com/product/the-ninja-2-0/",
     "Model": "Ninja 2.0",
     "Length": 7,
     "Girth": 5.5,
     "Diameter": 1.75,
-    "Girth Category": "Low"
+    "Girth Category": "Low",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1020.jpg?v=1709324894"
   },
   {
-    "URL": "https://blissfullcreations.com/products/the-omg-sleeve",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1057.jpg?v=1709666210",
-    "Model": "OMG",
+    "URL": "https://blissfullcreations.com/product/the-omg-sleeve/",
+    "Model": "Omg",
     "Length": 9.75,
     "Girth": 9.75,
     "Diameter": 3.1,
-    "Girth Category": "Curved"
+    "Girth Category": "Curved",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1057.jpg?v=1709666210"
   },
   {
-    "URL": "https://blissfullcreations.com/products/the-phantom-sleeve-copy",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0999.jpg?v=1706737963",
+    "URL": "https://blissfullcreations.com/product/the-phantom-sleeve-a/",
     "Model": "Phantom A",
     "Length": 6.25,
     "Girth": 5,
     "Diameter": 1.59,
-    "Girth Category": "Low"
+    "Girth Category": "Low",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0999.jpg?v=1706737963"
   },
   {
-    "URL": "https://blissfullcreations.com/products/the-phantom-sleeve-b",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0999.jpg?v=1706737963",
+    "URL": "https://blissfullcreations.com/product/the-phantom-sleeve-b/",
     "Model": "Phantom B",
     "Length": 7,
     "Girth": 5.25,
     "Diameter": 1.67,
-    "Girth Category": "Low"
+    "Girth Category": "Low",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0999.jpg?v=1706737963"
   },
   {
-    "URL": "https://blissfullcreations.com/products/the-phantom-sleeve-c",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0999.jpg?v=1706737963",
+    "URL": "https://blissfullcreations.com/product/the-phantom-sleeve-c/",
     "Model": "Phantom C",
     "Length": 7.5,
     "Girth": 6,
     "Diameter": 1.91,
-    "Girth Category": "Medium"
+    "Girth Category": "Medium",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0999.jpg?v=1706737963"
   },
   {
-    "URL": "https://blissfullcreations.com/products/the-phantom-sleeve-d",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0999.jpg?v=1706737963",
+    "URL": "https://blissfullcreations.com/product/the-phantom-sleeve-d/",
     "Model": "Phantom D",
     "Length": 8,
     "Girth": 6.25,
     "Diameter": 1.99,
-    "Girth Category": "Medium"
+    "Girth Category": "Medium",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0999.jpg?v=1706737963"
   },
   {
-    "URL": "https://blissfullcreations.com/products/the-phantom-sleeve-e",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0999.jpg?v=1706737963",
+    "URL": "https://blissfullcreations.com/product/the-phantom-sleeve-e/",
     "Model": "Phantom E",
     "Length": 8.5,
     "Girth": 6.5,
     "Diameter": 2.07,
-    "Girth Category": "Medium"
+    "Girth Category": "Medium",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0999.jpg?v=1706737963"
   },
   {
-    "URL": "https://blissfullcreations.com/products/the-phantom-sleeve-f",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0999.jpg?v=1706737963",
+    "URL": "https://blissfullcreations.com/product/the-phantom-sleeve-f/",
     "Model": "Phantom F",
     "Length": 9,
     "Girth": 7.125,
     "Diameter": 2.27,
-    "Girth Category": "Medium"
+    "Girth Category": "Medium",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0999.jpg?v=1706737963"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-pool-boy",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-pool-boy-31100110930118_6cc4cd8d-28c4-40f4-9c65-6dab135553a0.jpg?v=1692989730",
+    "URL": "https://blissfullcreations.com/product/the-pool-boy/",
     "Model": "Pool Boy",
     "Length": 8,
     "Girth": 5.9,
     "Diameter": 1.88,
-    "Girth Category": "Medium"
+    "Girth Category": "Medium",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-pool-boy-31100110930118_6cc4cd8d-28c4-40f4-9c65-6dab135553a0.jpg?v=1692989730"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-prizefighter-sleeve",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0485_62dfc418-b65b-4b83-bb0d-63968f4e4920.jpg?v=1692993458",
+    "URL": "https://blissfullcreations.com/product/the-prizefighter-sleeve/",
     "Model": "Prizefighter",
     "Length": 9.38,
     "Girth": 7.13,
     "Diameter": 2.27,
-    "Girth Category": "Medium"
+    "Girth Category": "Medium",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0485_62dfc418-b65b-4b83-bb0d-63968f4e4920.jpg?v=1692993458"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-professor",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/largerprofile1_bb7627a4-81f3-49c2-a1fd-dc7fe1d05c4c.jpg?v=1693251441",
+    "URL": "https://blissfullcreations.com/product/the-professor/",
     "Model": "Professor",
     "Length": 8,
     "Girth": 7,
     "Diameter": 2.23,
-    "Girth Category": "Medium"
+    "Girth Category": "Medium",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/largerprofile1_bb7627a4-81f3-49c2-a1fd-dc7fe1d05c4c.jpg?v=1693251441"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-quarterback",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-quarterback-31100124364998_ebd8e378-69f2-4793-9b31-662cd1af59e4.jpg?v=1693942150",
+    "URL": "https://blissfullcreations.com/product/the-quarterback/",
     "Model": "Quarterback",
     "Length": 7.75,
     "Girth": 6.13,
     "Diameter": 1.95,
-    "Girth Category": "Medium"
+    "Girth Category": "Medium",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-quarterback-31100124364998_ebd8e378-69f2-4793-9b31-662cd1af59e4.jpg?v=1693942150"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-repeater-peter-dual-density-sleeve",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/download_798c4c1b-75c2-4c37-84d8-e2d556600116.png?v=1693942578",
-    "Model": "Repeater Peter",
+    "URL": "https://blissfullcreations.com/product/the-repeater-peter-dual-density-sleeve/",
+    "Model": "Repeater Peter Dual Density",
     "Length": 8.75,
     "Girth": 6.38,
     "Diameter": 2.03,
-    "Girth Category": "Fantasy"
+    "Girth Category": "Fantasy",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/download_798c4c1b-75c2-4c37-84d8-e2d556600116.png?v=1693942578"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-samurai",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_6760_375c8c11-d261-4fcc-b615-3e949cc23b2b.jpg?v=1692904354",
+    "URL": "https://blissfullcreations.com/product/the-samurai/",
     "Model": "Samurai",
     "Length": 8.5,
     "Girth": 6.28,
     "Diameter": 2,
-    "Girth Category": "Medium"
+    "Girth Category": "Medium",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_6760_375c8c11-d261-4fcc-b615-3e949cc23b2b.jpg?v=1692904354"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-shogun",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_6762_3c2bff08-eafa-4d96-a0b4-722aa78797db.jpg?v=1692905549",
+    "URL": "https://blissfullcreations.com/product/the-shogun/",
     "Model": "Shogun",
     "Length": 9.25,
     "Girth": 7.22,
     "Diameter": 2.3,
-    "Girth Category": "Medium"
+    "Girth Category": "Medium",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_6762_3c2bff08-eafa-4d96-a0b4-722aa78797db.jpg?v=1692905549"
   },
   {
-    "URL": "https://blissfullcreations.com/products/squid-boy",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0973.jpg?v=1702496514",
+    "URL": "https://blissfullcreations.com/product/the-squid-boy/",
     "Model": "Squid Boy",
     "Length": 8,
     "Girth": 6.25,
     "Diameter": 1.99,
-    "Girth Category": "Fantasy"
+    "Girth Category": "Fantasy",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0973.jpg?v=1702496514"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-steamboat-captain",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-steamboat-captain-32701624484038_14e71924-350d-447b-ad0c-3cfb9c7a5fbf.jpg?v=1693942735",
+    "URL": "https://blissfullcreations.com/product/the-steamboat-captain/",
     "Model": "Steamboat Capt.",
     "Length": 8,
     "Girth": 6.75,
     "Diameter": 2.15,
-    "Girth Category": "Large"
+    "Girth Category": "Large",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-steamboat-captain-32701624484038_14e71924-350d-447b-ad0c-3cfb9c7a5fbf.jpg?v=1693942735"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-steamboat-captain-xl",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-steamboat-captain-xl-33855332778182_fa2b1dff-0940-4299-b342-29fdd5cbd2cb.jpg?v=1693943438",
+    "URL": "https://blissfullcreations.com/product/the-steamboat-captain-xl/",
     "Model": "Steamboat Capt. XL",
     "Length": 9.25,
     "Girth": 7.19,
     "Diameter": 2.29,
-    "Girth Category": "Large"
+    "Girth Category": "Large",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-steamboat-captain-xl-33855332778182_fa2b1dff-0940-4299-b342-29fdd5cbd2cb.jpg?v=1693943438"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-steamboat-captain-xxl",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-copy-of-the-steamboat-captain-xxl-33855348015302_224a7777-8cab-4aab-8339-df7194194ebb.jpg?v=1694029262",
+    "URL": "https://blissfullcreations.com/product/the-steamboat-captain-xxl/",
     "Model": "Steamboat Capt. XXL",
     "Length": 10.25,
     "Girth": 7.75,
     "Diameter": 2.47,
-    "Girth Category": "Large"
+    "Girth Category": "Large",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-copy-of-the-steamboat-captain-xxl-33855348015302_224a7777-8cab-4aab-8339-df7194194ebb.jpg?v=1694029262"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-6-in-x-1-5-in-step-it-up",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-6-x-1-5-step-it-up-32701620224198_d1d3c916-caa7-4725-ac7b-81fbf3544011.jpg?v=1692377259",
-    "Model": "Step It Up - 6x1.5",
-    "Length": 6,
-    "Girth": 4.7,
-    "Diameter": 1.5,
-    "Girth Category": "Low"
-  },
-  {
-    "URL": "https://blissfullcreations.com/products/copy-of-6-in-x-1-6-in-step-it-up",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-6-x-1-6-step-it-up-32701612458182_fc629179-e345-4fee-865e-e63df82e19f7.jpg?v=1692379238",
-    "Model": "Step It Up - 6x1.6",
-    "Length": 6,
-    "Girth": 5,
-    "Diameter": 1.59,
-    "Girth Category": "Low"
-  },
-  {
-    "URL": "https://blissfullcreations.com/products/copy-of-6-in-x-1-8-in-step-it-up",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-6-x-1-8-step-it-up-32701619732678_3e8150f1-4c66-491e-b958-91713e678fd6.jpg?v=1692385215",
-    "Model": "Step It Up - 6x1.8",
-    "Length": 6,
-    "Girth": 5.65,
-    "Diameter": 1.8,
-    "Girth Category": "Low"
-  },
-  {
-    "URL": "https://blissfullcreations.com/products/6-in-x-2-in-step-it-up",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-6-x-2-step-it-up-32701631135942_28c618ce-c7b9-495f-ba3f-40041eea4ac8.jpg?v=1692384590",
-    "Model": "Step It Up - 6x2",
-    "Length": 6,
-    "Girth": 6.28,
-    "Diameter": 2,
-    "Girth Category": "Low"
-  },
-  {
-    "URL": "https://blissfullcreations.com/products/copy-of-7-in-x-1-6-in-step-it-up",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-7-x-1-6-step-it-up-32701615571142_38a072b8-41d1-4d35-a11d-dfe2f54fb3c3.jpg?v=1692385498",
-    "Model": "Step It Up - 7x1.6",
-    "Length": 7,
-    "Girth": 5,
-    "Diameter": 1.59,
-    "Girth Category": "Low"
-  },
-  {
-    "URL": "https://blissfullcreations.com/products/copy-of-7-in-x-1-8-in-step-it-up",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-7-x-1-8-step-it-up-32701623795910_a8c2fcd6-d84b-4cd4-a459-653f63d277db.jpg?v=1692385892",
-    "Model": "Step It Up - 7x1.8",
-    "Length": 6,
-    "Girth": 5.65,
-    "Diameter": 1.8,
-    "Girth Category": "Low"
-  },
-  {
-    "URL": "https://blissfullcreations.com/products/copy-of-7-in-x-2-in-step-it-up",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-7-x-2-step-it-up-32701630316742_be69d28f-c6d2-43a7-8a5e-61619a2ac9e3.jpg?v=1692386073",
-    "Model": "Step It Up - 7x2",
-    "Length": 6,
-    "Girth": 6.28,
-    "Diameter": 2,
-    "Girth Category": "Low"
-  },
-  {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-strongman",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-strongman-31100111683782_f5b6f3cd-4691-40b8-a8af-7292ed649353.jpg?v=1692905816",
+    "URL": "https://blissfullcreations.com/product/the-strongman/",
     "Model": "Strongman",
     "Length": 8.25,
     "Girth": 7,
     "Diameter": 2.23,
-    "Girth Category": "Medium"
+    "Girth Category": "Medium",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-strongman-31100111683782_f5b6f3cd-4691-40b8-a8af-7292ed649353.jpg?v=1692905816"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-sumo",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-sumo-31100112076998_323c34b4-a287-42c0-a1f0-22a1c74f2038.jpg?v=1694031484",
+    "URL": "https://blissfullcreations.com/product/the-sumo/",
     "Model": "Sumo",
     "Length": 8.25,
     "Girth": 8,
     "Diameter": 2.55,
-    "Girth Category": "Fantasy"
+    "Girth Category": "Fantasy",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-sumo-31100112076998_323c34b4-a287-42c0-a1f0-22a1c74f2038.jpg?v=1694031484"
   },
   {
-    "URL": "https://blissfullcreations.com/products/7-in-x-1-8-in-blissfull-creations-support-sleeve-v3",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/3ddiagrambcssv3.jpg?v=1711392041",
-    "Model": "Support Sleeve 7x1.8",
-    "Length": 7,
-    "Girth": 5.65,
-    "Diameter": 1.8,
-    "Girth Category": "Small"
-  },
-  {
-    "URL": "https://blissfullcreations.com/products/copy-of-7-in-x-1-9-in-blissfull-creations-support-sleeve-3-0",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/3ddiagrambcssv3_787e799e-0f8b-4ae6-8018-4f0ad57127b6.jpg?v=1711395627",
-    "Model": "Support Sleeve 7x1.9",
-    "Length": 7,
-    "Girth": 5.97,
-    "Diameter": 1.9,
-    "Girth Category": "Small"
-  },
-  {
-    "URL": "https://blissfullcreations.com/products/copy-of-copy-of-7-in-x-2-0-in-blissfull-creations-support-sleeve-3-0",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/3ddiagrambcssv3_06041ced-1749-4158-993a-a0967f74cb97.jpg?v=1711395846",
-    "Model": "Support Sleeve 7x2",
-    "Length": 7,
-    "Girth": 6.28,
-    "Diameter": 2,
-    "Girth Category": "Small"
-  },
-  {
-    "URL": "https://blissfullcreations.com/products/copy-of-copy-of-copy-of-7-in-x-2-1-in-blissfull-creations-support-sleeve-3-0",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/3ddiagrambcssv3_21d4adf1-3a96-42fc-8717-aa57f3535d11.jpg?v=1711396173",
-    "Model": "Support Sleeve 7x2.1",
-    "Length": 7,
-    "Girth": 6.6,
-    "Diameter": 2.1,
-    "Girth Category": "Small"
-  },
-  {
-    "URL": "https://blissfullcreations.com/products/copy-of-copy-of-copy-of-copy-of-7-in-x-2-2-in-blissfull-creations-support-sleeve-3-0",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/3ddiagrambcssv3_3143a856-a61e-41c5-9a8d-a2ce526f82bb.jpg?v=1711396419",
-    "Model": "Support Sleeve 7x2.2",
-    "Length": 7,
-    "Girth": 6.91,
-    "Diameter": 2.2,
-    "Girth Category": "Medium"
-  },
-  {
-    "URL": "https://blissfullcreations.com/products/7-in-x-2-3-in-blissfull-creations-support-sleeve-3-0",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/3ddiagrambcssv3_bd5a5b64-f371-46b1-a6c1-800f66275e2d.jpg?v=1711397249",
-    "Model": "Support Sleeve 7x2.3",
-    "Length": 7,
-    "Girth": 7.22,
-    "Diameter": 2.3,
-    "Girth Category": "Medium"
-  },
-  {
-    "URL": "https://blissfullcreations.com/products/7-in-x-2-4-in-blissfull-creations-support-sleeve-3-0",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/3ddiagrambcssv3_906d0767-2c2a-486e-9153-6a0334bac6d4.jpg?v=1711397575",
-    "Model": "Support Sleeve 7x2.4",
-    "Length": 7,
-    "Girth": 7.53,
-    "Diameter": 2.4,
-    "Girth Category": "Medium"
-  },
-  {
-    "URL": "https://blissfullcreations.com/products/copy-of-tickle-me-pickle",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-tickle-me-pickle-31013969395910_96799cb4-8c28-4115-9df8-faf7b81107f5.jpg?v=1694031991",
+    "URL": "https://blissfullcreations.com/product/the-tickle-me-pickle/",
     "Model": "Tickle Me Pickle",
     "Length": 7.75,
     "Girth": 6.25,
     "Diameter": 1.99,
-    "Girth Category": "Fantasy"
+    "Girth Category": "Fantasy",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-tickle-me-pickle-31013969395910_96799cb4-8c28-4115-9df8-faf7b81107f5.jpg?v=1694031991"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-timmy-7-5",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0089_0a060b21-5e34-4223-b495-0c63cb44c68e.jpg?v=1692732352",
+    "URL": "https://blissfullcreations.com/product/the-timmy-7-5/",
     "Model": "Timmy 7.5",
     "Length": 7.5,
     "Girth": 5.5,
     "Diameter": 1.75,
-    "Girth Category": "Low"
+    "Girth Category": "Low",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0089_0a060b21-5e34-4223-b495-0c63cb44c68e.jpg?v=1692732352"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-timmy-8",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0089_2192cf1d-b95b-4f9e-8406-f79e6beab2f4.jpg?v=1692732727",
+    "URL": "https://blissfullcreations.com/product/the-timmy-8/",
     "Model": "Timmy 8",
     "Length": 8,
     "Girth": 5.6,
     "Diameter": 1.78,
-    "Girth Category": "Low"
+    "Girth Category": "Low",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0089_2192cf1d-b95b-4f9e-8406-f79e6beab2f4.jpg?v=1692732727"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-timmy-8-5",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0089_b6401dda-22f6-4190-b0c5-3cb9cc9a6461.jpg?v=1692732992",
+    "URL": "https://blissfullcreations.com/product/the-timmy-8-5/",
     "Model": "Timmy 8.5",
     "Length": 8.5,
     "Girth": 5.63,
     "Diameter": 1.79,
-    "Girth Category": "Low"
+    "Girth Category": "Low",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0089_b6401dda-22f6-4190-b0c5-3cb9cc9a6461.jpg?v=1692732992"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-timmy-9",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0089_5d6c2e36-4217-4e18-95c5-d0a0f63b75c2.jpg?v=1692906298",
+    "URL": "https://blissfullcreations.com/product/the-timmy-9/",
     "Model": "Timmy 9",
     "Length": 9,
     "Girth": 6,
     "Diameter": 1.91,
-    "Girth Category": "Medium"
+    "Girth Category": "Medium",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0089_5d6c2e36-4217-4e18-95c5-d0a0f63b75c2.jpg?v=1692906298"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-tsukebito",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0078_f79fc367-0f4e-4d86-851b-a2ceea317c11.jpg?v=1694721358",
+    "URL": "https://blissfullcreations.com/product/the-tsukebito/",
     "Model": "Tsukebito",
     "Length": 7,
     "Girth": 6.31,
     "Diameter": 2.01,
-    "Girth Category": "Fantasy"
+    "Girth Category": "Fantasy",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0078_f79fc367-0f4e-4d86-851b-a2ceea317c11.jpg?v=1694721358"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-my-dirty-little-unicorn",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0525_b5e92a4c-e924-4d1d-9bb4-d6281802659b.jpg?v=1692644492",
-    "Model": "Unicorn",
-    "Length": 7.88,
-    "Girth": 8.32,
-    "Diameter": 2.65,
-    "Girth Category": "Fantasy"
-  },
-  {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-vlad",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-vlad-33163843666118_5405ee3d-8304-46e6-b878-d92ee3bf42b1.jpg?v=1693253412",
+    "URL": "https://blissfullcreations.com/product/the-vlad/",
     "Model": "Vlad",
     "Length": 11,
     "Girth": 7,
     "Diameter": 2.23,
-    "Girth Category": "Medium"
+    "Girth Category": "Medium",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-vlad-33163843666118_5405ee3d-8304-46e6-b878-d92ee3bf42b1.jpg?v=1693253412"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-woodland-elf",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_6244_f53b4514-21dc-4053-999c-4d53809f02d0.jpg?v=1694721820",
+    "URL": "https://blissfullcreations.com/product/the-woodland-elf/",
     "Model": "Woodland Elf",
     "Length": 9.5,
     "Girth": 7.07,
     "Diameter": 2.25,
-    "Girth Category": "Medium"
+    "Girth Category": "Medium",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_6244_f53b4514-21dc-4053-999c-4d53809f02d0.jpg?v=1694721820"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-woodland-god",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-woodland-god-31100123840710_2a0d36a9-7dc8-4a19-b2f0-6851320da6dc.jpg?v=1694722776",
+    "URL": "https://blissfullcreations.com/product/the-woodland-god/",
     "Model": "Woodland God",
     "Length": 8,
     "Girth": 9.42,
     "Diameter": 3,
-    "Girth Category": "Large"
+    "Girth Category": "Large",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-woodland-god-31100123840710_2a0d36a9-7dc8-4a19-b2f0-6851320da6dc.jpg?v=1694722776"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-woodland-wizard",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-woodland-wizard-31100128919750_5d549668-8640-4739-86f4-e4305b50dea4.jpg?v=1694723337",
+    "URL": "https://blissfullcreations.com/product/the-woodland-wizard/",
     "Model": "Woodland Wizard",
     "Length": 10.5,
     "Girth": 7.85,
     "Diameter": 2.5,
-    "Girth Category": "Large"
+    "Girth Category": "Large",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-woodland-wizard-31100128919750_5d549668-8640-4739-86f4-e4305b50dea4.jpg?v=1694723337"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-woodsman",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-woodsman-31100118597830_6c1ff5c1-8947-4b5a-bc05-d362aff4bf81.jpg?v=1692733221",
+    "URL": "https://blissfullcreations.com/product/the-woodsman/",
     "Model": "Woodsman",
     "Length": 8,
     "Girth": 5.96,
     "Diameter": 1.9,
-    "Girth Category": "Low"
+    "Girth Category": "Low",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/blissfull-creations-us-sleeve-the-woodsman-31100118597830_6c1ff5c1-8947-4b5a-bc05-d362aff4bf81.jpg?v=1692733221"
   },
   {
-    "URL": "https://blissfullcreations.com/products/the-yeti-penis-sleeve",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1122.jpg?v=1717694729",
+    "URL": "https://blissfullcreations.com/product/the-yeti-penis-sleeve/",
     "Model": "Yeti Large",
     "Length": 9,
     "Girth": 7.5,
     "Diameter": 2.39,
-    "Girth Category": "Large"
+    "Girth Category": "Large",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1122.jpg?v=1717694729"
   },
   {
-    "URL": "https://blissfullcreations.com/products/the-yeti-penis-sleeve",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1122.jpg?v=1717694729",
+    "URL": "https://blissfullcreations.com/product/the-yeti-penis-sleeve/",
     "Model": "Yeti Medium",
     "Length": 8,
     "Girth": 6.25,
     "Diameter": 1.99,
-    "Girth Category": "Medium"
+    "Girth Category": "Medium",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1122.jpg?v=1717694729"
   },
   {
-    "URL": "https://blissfullcreations.com/products/the-yeti-penis-sleeve",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1122.jpg?v=1717694729",
+    "URL": "https://blissfullcreations.com/product/the-yeti-penis-sleeve/",
     "Model": "Yeti Small",
     "Length": 7,
     "Girth": 5.5,
     "Diameter": 1.75,
-    "Girth Category": "Small"
+    "Girth Category": "Small",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_1122.jpg?v=1717694729"
   },
   {
-    "URL": "https://blissfullcreations.com/products/copy-of-the-yokozuna",
-    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0069_a424841b-3559-4f92-9812-008a0087f223.jpg?v=1694723892",
+    "URL": "https://blissfullcreations.com/product/the-yokozuna/",
     "Model": "Yokozuna",
     "Length": 10,
     "Girth": 8.75,
     "Diameter": 2.79,
-    "Girth Category": "Fantasy"
+    "Girth Category": "Fantasy",
+    "Image URL": "https://cdn.shopify.com/s/files/1/0586/2958/7142/files/IMG_0069_a424841b-3559-4f92-9812-008a0087f223.jpg?v=1694723892"
   }
 ]

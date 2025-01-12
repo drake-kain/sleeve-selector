@@ -84,8 +84,6 @@ with st.spinner('Loading products...'):
 diameter_options = [round(x, 3) for x in list(frange(1, 3.125, 0.125))]
 length_options = [round(x, 2) for x in list(frange(3, 9.25, 0.25))]
 
-
-
 @st.cache_data
 def get_min_and_max_values(data):
     # Initialize variables for min and max values
@@ -173,9 +171,6 @@ def add_calculated_fields(data):
     # default for all other sleeves is 1 inch of space, exceptions for dual/triple density
     else:
         obj['Max Internal Length'] = obj['Length'] - 1
-    # add reference hash
-    hash = "?hash=U2FsdGVkX18ktvbAO4N2cENwuIXMnPrUuO8ciYPKC52hXSg2iTHGmKDIGyPC1WGNMLFPIPgJvIMjr0KRkdhCgPF9+IdbosGELowyqQau4gN32mnpbFutimq4JqLM+CRSFJqd5Uq8GnGBVLKEAvB8qw=="
-    obj['URL'] = f"{obj['URL']}{hash}"
   return data
 
 # calcuate new fields
