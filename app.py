@@ -88,11 +88,9 @@ def load_gsheets_data():
         data = conn.read(worksheet="PRODUCTION_PRODUCT_LIST")
         # convert the dataframe to a dictionary for modifying and manipulating data
         object_data = data.to_dict(orient="records")
-        st.write('loading gsheets')
     except:
         # if google sheets fails, fall back to local json file
         object_data = load_json_data('product_index.json')
-        st.write('loading json')
     finally:
         # return the python object version of the datas
         return object_data
