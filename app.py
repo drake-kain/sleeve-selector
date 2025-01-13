@@ -86,9 +86,9 @@ def load_gsheets_data():
         conn = st.connection("gsheets", type=GSheetsConnection)
         # from the gsheet, only pull in the production product list tab
         data = conn.read(
-            worksheet="PRODUCTION_PRODUCT_LIST"
+            worksheet="PRODUCTION_PRODUCT_LIST",
             # set the cache to 10 min
-            ttl="10m",
+            ttl="10m"
         )
         # convert the dataframe to a dictionary for modifying and manipulating data
         object_data = data.to_dict(orient="records")
