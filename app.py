@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import json
 import math
+from streamlit_gsheets import GSheetsConnection
 
 # Helper function to generate floating point ranges
 def frange(start, stop, step):
@@ -75,10 +76,30 @@ st.info('''
 def load_json_data(file_path):
     with open(file_path) as f:
         return json.load(f)
+    
+# Cache the function that loads the Google Sheets file
+@st.cache_data
+def load_gsheets_data():
+    # try and load google sheets data first, if it fails, go to the local json
+    try:
+        # Reference the connection from the secrets.toml
+        conn = st.connection("gsheets", type=GSheetsConnection)
+        # from the gsheet, only pull in the production product list tab
+        data = conn.read(worksheet="PRODUCTION_PRODUCT_LIST")
+        # convert the dataframe to a dictionary for modifying and manipulating data
+        object_data = data.to_dict(orient="records")
+        st.write('loading gsheets')
+    except:
+        # if google sheets fails, fall back to local json file
+        object_data = load_json_data('product_index.json')
+        st.write('loading json')
+    finally:
+        # return the python object version of the datas
+        return object_data
 
-# Load the JSON data (cached)
+# Load the product data
 with st.spinner('Loading products...'):
-    data = load_json_data('product_index.json')
+    data = load_gsheets_data();
 
 # Create options for select boxes
 diameter_options = [round(x, 3) for x in list(frange(1, 3.125, 0.125))]
