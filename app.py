@@ -298,5 +298,5 @@ else:
 
 # Footer
 st.write('''
-    Products Copyright [Blissfull Creations](https://inviteee.to/i/uEvPz). Have feedback? [Submit it!](https://www.reddit.com/message/compose/?to=drake_kain)
+    Products Copyright [Blissfull Creations](https://inviteee.to/i/uEvPz). )
 ''')
