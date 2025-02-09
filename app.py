@@ -4,17 +4,17 @@ import json
 import math
 from streamlit_gsheets import GSheetsConnection
 
-# Helper function to generate floating point ranges
+# Generate floating point ranges with specified step size, useful for creating measurement options
 def frange(start, stop, step):
     while start < stop:
         yield start
         start += step
 
-# Function to normalize the category name
+# Standardize category names by converting to lowercase and removing whitespace to ensure consistent comparisons
 def normalize_category(category_name):
     return category_name.lower().strip() if category_name else category_name
 
-# Function to get the recommended opening diameter based on user diameter and category
+# Calculate recommended internal opening diameter based on user's measurements and sleeve category (low/medium/high)
 def get_recommended_opening_diameter(user_diameter, category_name):
     category = normalize_category(category_name)
     
@@ -43,13 +43,12 @@ def get_recommended_opening_diameter(user_diameter, category_name):
     
     return None
 
-# page configurations
+# Configure Streamlit page settings including title, icon, and menu items with links to support and documentation
 st.set_page_config(
     page_title="Sleeve Selector",
     page_icon="🍆",
     # layout="wide",
     menu_items={
-        'Report a bug': "https://www.reddit.com/message/compose/?to=drake_kain",
         'About': f"""
         Input your length and diameter to show compatible sleeves. A compatible sleeve
         has a total diameter larger than you, a max interior length as long as you, and an opening
@@ -57,90 +56,65 @@ st.set_page_config(
                 
         We will also show the total girth of the sleeve when worn with the recommended diameter.
         No more guesswork when comparing models!
-        
-        Made by [/u/drake_kain](https://www.reddit.com/user/drake_kain/)"""
+        """
     }
 )
 
 # Title 
 st.title('Sleeve Selector :eggplant:')
 st.info(''' 
-        Find the perfect sleeve and fit according to Blissfull Creation's [How to Order](https://blissfullcreations.com/pages/how-to-order?hash=U2FsdGVkX18ktvbAO4N2cENwuIXMnPrUuO8ciYPKC52hXSg2iTHGmKDIGyPC1WGNMLFPIPgJvIMjr0KRkdhCgPF9+IdbosGELowyqQau4gN32mnpbFutimq4JqLM+CRSFJqd5Uq8GnGBVLKEAvB8qw==) guide. 
+        Find the perfect sleeve and fit according to Blissfull Creation's [How to Order](https://blissfullcreations.com/pages/how-to-order) guide. 
           
         Select your penis dimensions below to find compatible sized sleeves, while also being provided
         a Recommended Internal Dimensions for ordering.
     ''')
 
-# Cache the function that loads the JSON file
+# Pre-compute and cache measurement options to avoid recalculating on every page load
 @st.cache_data
-def load_json_data(file_path):
-    with open(file_path) as f:
-        return json.load(f)
-    
-# Cache the function that loads the Google Sheets file
-@st.cache_data
+def get_select_options():
+    diameter_options = [round(x, 3) for x in list(frange(1, 3.125, 0.125))]
+    length_options = [round(x, 2) for x in list(frange(3, 9.25, 0.25))]
+    return diameter_options, length_options
+
+# Fetch product data from Google Sheets with 10-minute cache, falling back to local JSON if connection fails
+@st.cache_data(ttl=600)  # 10 minute cache
 def load_gsheets_data():
-    # try and load google sheets data first, if it fails, go to the local json
     try:
-        # Reference the connection from the secrets.toml
         conn = st.connection("gsheets", type=GSheetsConnection)
-        # from the gsheet, only pull in the production product list tab
+        # Only select the columns we need
         data = conn.read(
             worksheet="PRODUCTION_PRODUCT_LIST",
-            # set the cache to 10 min
+            usecols=['Model', 'Length', 'Girth', 'Girth Category', 'Diameter', 'URL'],
             ttl="10m"
         )
-        # convert the dataframe to a dictionary for modifying and manipulating data
-        object_data = data.to_dict(orient="records")
-    except:
-        # if google sheets fails, fall back to local json file
-        object_data = load_json_data('product_index.json')
-    finally:
-        # return the python object version of the datas
-        return object_data
+        return data.to_dict(orient="records")
+    except Exception as e:
+        st.warning("Failed to load from Google Sheets, falling back to local data")
+        with open('product_index.json') as f:
+            return json.load(f)
 
-# Load the product data
-with st.spinner('Loading products...'):
-    data = load_gsheets_data();
-
-# Create options for select boxes
-diameter_options = [round(x, 3) for x in list(frange(1, 3.125, 0.125))]
-length_options = [round(x, 2) for x in list(frange(3, 9.25, 0.25))]
-
+# Process and cache sleeve data calculations, including recommended diameters and internal lengths based on sleeve type
 @st.cache_data
-def get_min_and_max_values(data):
-    # Initialize variables for min and max values
-    min_length = float('inf')
-    max_length = float('-inf')
-    min_girth = float('inf')
-    max_girth = float('-inf')
-    
-    # Loop through each object in the JSON array
-    for obj in data:
-        length = float(obj["Length"])  # Convert to float for consistency
-        girth = float(obj["Girth"])  # Convert to float for consistency
-
-        # Update min and max values for Length
-        if length < min_length:
-            min_length = length
-        if length > max_length:
-            max_length = length
-
-        # Update min and max values for Girth
-        if girth < min_girth:
-            min_girth = girth
-        if girth > max_girth:
-            max_girth = girth
+def process_sleeve_data(data, user_diameter):
+    processed_data = []
+    for obj in data.copy():  # Create copy to prevent modifying cached data
+        obj['Recommended Diameter'] = get_recommended_opening_diameter(user_diameter, obj['Girth Category'])
+        
+        # Calculate maximum internal length based on sleeve model type and design constraints
+        if 'girthy' in obj['Model'].lower():
+            obj['Max Internal Length'] = obj['Length'] - 0.5
+        elif 'curved' in obj['Girth Category'].lower():
+            obj['Max Internal Length'] = obj['Length'] - 2
+        elif 'prizefighter' in obj['Model'].lower():
+            obj['Max Internal Length'] = 6.5
+        else:
+            obj['Max Internal Length'] = obj['Length'] - 1
             
-    return {
-        'min_length': min_length,
-        'max_length': max_length,
-        'min_girth': min_girth,
-        'max_girth': max_girth
-    }
+        processed_data.append(obj)
+    return processed_data
 
-# get the min and max values
-min_max_data = get_min_and_max_values(data)
+# Get the pre-computed options
+diameter_options, length_options = get_select_options()
 
 col1, col2 = st.columns(2)
 # Select fields for user inputs
@@ -165,40 +139,24 @@ with st.expander("Advanced Filters"):
     # Slider for girth
     selected_girth = st.slider(
         "Min and Max Sleeve Girth",
-        min_value=min_max_data['min_girth'],
-        max_value=min_max_data['max_girth'],
-        value=(min_max_data['min_girth'], min_max_data['max_girth']),  # default range
+        min_value=min([obj['Girth'] for obj in load_gsheets_data()]),
+        max_value=max([obj['Girth'] for obj in load_gsheets_data()]),
+        value=(min([obj['Girth'] for obj in load_gsheets_data()]), max([obj['Girth'] for obj in load_gsheets_data()]))  # default range
     )
     # Slider for Length
     selected_length = st.slider(
         "Min and Max Sleeve Length",
-        min_value=min_max_data['min_length'],
-        max_value=min_max_data['max_length'],
-        value=(min_max_data['min_length'], min_max_data['max_length'])  # default range
+        min_value=min([obj['Length'] for obj in load_gsheets_data()]),
+        max_value=max([obj['Length'] for obj in load_gsheets_data()]),
+        value=(min([obj['Length'] for obj in load_gsheets_data()]), max([obj['Length'] for obj in load_gsheets_data()]))  # default range
     )
     
-# Add new keys to each object in the JSON array, do this once and cache it
-@st.cache_data
-def add_calculated_fields(data):
-  for obj in data:
-    # Adjust Max Internal Lengths for specific sleeves
-    # Girthy boy only requires 0.5" lower than total length
-    if 'girthy' in obj['Model'].lower():
-        obj['Max Internal Length'] = obj['Length'] - 0.5
-    # Curved sleeves (Lova Lova) require 2 inches between insertable and total length
-    elif 'curved' in obj['Girth Category'].lower():
-        obj['Max Internal Length'] = obj['Length'] - 2
-    # prize fighter is a special curved, with max internal of 6.5 inches
-    elif 'prizefighter' in obj['Model'].lower():
-        obj['Max Internal Length'] = 6.5
-    # default for all other sleeves is 1 inch of space, exceptions for dual/triple density
-    else:
-        obj['Max Internal Length'] = obj['Length'] - 1
-  return data
+# Load and process data
+with st.spinner('Loading products...'):
+    raw_data = load_gsheets_data()
+    data = process_sleeve_data(raw_data, user_diameter)
 
-# calcuate new fields
-data = add_calculated_fields(data)
-
+# Calculate final girth when sleeve is worn, accounting for both internal diameter and sleeve wall thickness
 def get_girth_when_worn(internal_diameter, sleeve_diameter):
     if internal_diameter == 'N/A':
         return 'N/A'
@@ -214,14 +172,13 @@ def get_girth_when_worn(internal_diameter, sleeve_diameter):
         # return the final worn circumference
         return round(total_circumference, 2)
 
+# Round user length to nearest 0.5" increment to match standard sleeve sizing options
 def round_user_length_to_nearest_half(number):
     # Multiply by 2, round down (floor), round to the closest whole number, then divide by 2
     return round(math.floor(number * 2)) / 2
 
 # Recalculate the dynamic fields
 for obj in data:
-    # Calculate recommended_diameter based on the selected user_diameter and object's Girth Category
-    obj['Recommended Diameter'] = get_recommended_opening_diameter(user_diameter, obj['Girth Category'])
     internal_dimensions = f"{round_user_length_to_nearest_half(user_length)} x {obj['Recommended Diameter']}"
     obj['Recommended Internal Dimensions'] = internal_dimensions
     obj['Girth When Worn'] = get_girth_when_worn(obj['Recommended Diameter'], obj['Diameter'])
@@ -294,7 +251,6 @@ else:
         use_container_width=True,
         column_order=displayed_column_order
     )
-
 
 # Footer
 st.write('''
