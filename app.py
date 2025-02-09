@@ -298,5 +298,5 @@ else:
 
 # Footer
 st.write('''
-    Products Copyright [Blissfull Creations](https://inviteee.to/i/uEvPz).
+    Products Copyright [Blissfull Creations](https://blissfullcreations.com/).
 ''')
