@@ -85,7 +85,6 @@ def load_gsheets_data():
         data = conn.read(
             worksheet="PRODUCTION_PRODUCT_LIST",
             usecols=['Model', 'Length', 'Girth', 'Girth Category', 'Diameter', 'URL'],
-            ttl="10m"
         )
         return data.to_dict(orient="records")
     except Exception as e:
@@ -239,17 +238,19 @@ else:
 if filtered_df.empty:
     st.warning("No compatible sleeves with the selected filters.")
 else:
+    columned_df = filtered_df[displayed_column_order]
     st.dataframe(
-        filtered_df, 
+        columned_df, 
         column_config={
             "URL": st.column_config.LinkColumn(
                 "Store Link",
                 display_text="Link"
-            )
+            ),
+            "Recommended Internal Dimensions": "Rec. Internal Dimensions",
         },
         hide_index=True, 
         use_container_width=True,
-        column_order=displayed_column_order
+        # column_order=displayed_column_order,
     )
 
 # Footer
