@@ -47,7 +47,6 @@ def get_recommended_opening_diameter(user_diameter, category_name):
 st.set_page_config(
     page_title="Sleeve Selector",
     page_icon="🍆",
-    # layout="wide",
     menu_items={
         'About': f"""
         Input your length and diameter to show compatible sleeves. A compatible sleeve
