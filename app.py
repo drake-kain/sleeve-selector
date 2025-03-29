@@ -206,10 +206,12 @@ filtered_df = df[
 
 # show the header and count
 header_text =f":green[{len(filtered_df)}] Compatible Sleeves"
-st.header(header_text, help="The below sleeves fit your penis based on their available internal dimensions")
+st.header(header_text, help="The below sleeves fit your penis based on their available internal dimensions. Note: These are estimates, please verify the measurements before ordering on the Blissfull Creations website.")
 
 # show toggle for additional columns
 show_more = st.toggle("Show more detailed sleeve measurements")
+# warning note
+st.warning(":warning: Customizations such as density may impact the available internal dimensions of the sleeve. Please verify available dimensions on the Blissfull Creations website after selecting a product below.")
 
 if show_more:
     displayed_column_order = [
