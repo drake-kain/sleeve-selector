@@ -72,7 +72,7 @@ st.info('''
 @st.cache_data
 def get_select_options():
     diameter_options = [round(x, 3) for x in list(frange(1, 3.125, 0.125))]
-    length_options = [round(x, 2) for x in list(frange(3, 9.25, 0.25))]
+    length_options = [round(x, 2) for x in list(frange(2, 9.25, 0.25))]
     return diameter_options, length_options
 
 # Fetch product data from Google Sheets with 10-minute cache, falling back to local JSON if connection fails
@@ -82,8 +82,11 @@ def load_gsheets_data():
         conn = st.connection("gsheets", type=GSheetsConnection)
         # Only select the columns we need
         data = conn.read(
-            worksheet="PRODUCTION_PRODUCT_LIST",
-            usecols=['Model', 'Length', 'Girth', 'Girth Category', 'Diameter', 'URL'],
+            worksheet="DEVELOPMENT_PRODUCT_LIST",
+            usecols=['Model', 'Length', 'Girth', 'Girth Category', 'Diameter', 'URL', 
+                    'min_internal_length', 'max_internal_length_single_density',
+                    'max_internal_length_double_density', 'max_internal_length_triple_zone_triple_density',
+                    'max_internal_length_triple_zone'],
         )
         return data.to_dict(orient="records")
     except Exception as e:
@@ -93,20 +96,54 @@ def load_gsheets_data():
 
 # Process and cache sleeve data calculations, including recommended diameters and internal lengths based on sleeve type
 @st.cache_data
-def process_sleeve_data(data, user_diameter):
+def process_sleeve_data(data, user_diameter, selected_density):
     processed_data = []
     for obj in data.copy():  # Create copy to prevent modifying cached data
         obj['Recommended Diameter'] = get_recommended_opening_diameter(user_diameter, obj['Girth Category'])
         
-        # Calculate maximum internal length based on sleeve model type and design constraints
-        if 'girthy' in obj['Model'].lower():
-            obj['Max Internal Length'] = obj['Length'] - 0.5
-        elif 'curved' in obj['Girth Category'].lower():
-            obj['Max Internal Length'] = obj['Length'] - 2
-        elif 'prizefighter' in obj['Model'].lower():
-            obj['Max Internal Length'] = 6.5
+        # Calculate supported densities based on internal length fields
+        supported_densities = []
+        
+        # Helper function to check if a value is valid (not NaN, None, or empty string)
+        def is_valid_value(value):
+            if pd.isna(value) or value is None or value == '':
+                return False
+            return True
+        
+        # Check each density type with proper NaN/empty string handling
+        if is_valid_value(obj.get('max_internal_length_single_density')):
+            supported_densities.append("Single")
+        if is_valid_value(obj.get('max_internal_length_double_density')):
+            supported_densities.append("Double")
+        if is_valid_value(obj.get('max_internal_length_triple_zone')):
+            supported_densities.append("Triple Zone")
+        if is_valid_value(obj.get('max_internal_length_triple_zone_triple_density')):
+            supported_densities.append("TZTD")
+            
+        obj['Supported Densities'] = supported_densities
+        
+        # Set Max Internal Length based on selected density
+        if selected_density == "Single" and is_valid_value(obj.get('max_internal_length_single_density')):
+            obj['Max Internal Length'] = obj['max_internal_length_single_density']
+        elif selected_density == "Double" and is_valid_value(obj.get('max_internal_length_double_density')):
+            obj['Max Internal Length'] = obj['max_internal_length_double_density']
+        elif selected_density == "Triple Zone" and is_valid_value(obj.get('max_internal_length_triple_zone')):
+            obj['Max Internal Length'] = obj['max_internal_length_triple_zone']
+        elif selected_density == "TZTD" and is_valid_value(obj.get('max_internal_length_triple_zone_triple_density')):
+            obj['Max Internal Length'] = obj['max_internal_length_triple_zone_triple_density']
         else:
-            obj['Max Internal Length'] = obj['Length'] - 1
+            # Fall back to old calculation method if selected density is not supported
+            if 'girthy' in obj['Model'].lower():
+                obj['Max Internal Length'] = obj['Length'] - 0.5
+            elif 'curved' in obj['Girth Category'].lower():
+                obj['Max Internal Length'] = obj['Length'] - 2
+            elif 'prizefighter' in obj['Model'].lower():
+                obj['Max Internal Length'] = 6.5
+            else:
+                obj['Max Internal Length'] = obj['Length'] - 1
+            
+        # Set Min Internal Length
+        obj['Min Internal Length'] = obj.get('min_internal_length') if is_valid_value(obj.get('min_internal_length')) else 0
             
         processed_data.append(obj)
     return processed_data
@@ -118,7 +155,6 @@ col1, col2 = st.columns(2)
 # Select fields for user inputs
 with col1:
     # slider for diameter
-    # user_diameter = st.selectbox("Penis Diameter in Inches", diameter_options)
     user_diameter = st.select_slider(
         "Erect Penis Diameter in Inches",
         diameter_options,
@@ -132,6 +168,16 @@ with col2:
         length_options,
         help="Measure from base to tip, not pressing into the pubic bone"
     )
+
+# Radio button for density
+density_options = ["Single", "Double", "Triple Zone", "TZTD"]
+selected_density = st.radio(
+    "Desired Sleeve Density",
+    density_options,
+    index=0,  # Default to Single density
+    horizontal=True,  # Display radio buttons horizontally
+    help="Select your preferred density. Products will be shown if they support the selected density."
+)
 
 with st.expander("Advanced Filters"):
     # Slider for girth
@@ -148,11 +194,11 @@ with st.expander("Advanced Filters"):
         max_value=max([obj['Length'] for obj in load_gsheets_data()]),
         value=(min([obj['Length'] for obj in load_gsheets_data()]), max([obj['Length'] for obj in load_gsheets_data()]))  # default range
     )
-    
+
 # Load and process data
 with st.spinner('Loading products...'):
     raw_data = load_gsheets_data()
-    data = process_sleeve_data(raw_data, user_diameter)
+    data = process_sleeve_data(raw_data, user_diameter, selected_density)
 
 # Calculate final girth when sleeve is worn, accounting for both internal diameter and sleeve wall thickness
 def get_girth_when_worn(internal_diameter, sleeve_diameter):
@@ -192,6 +238,8 @@ df = pd.DataFrame(data)
 # 5. Filter rows where the girth is <= the maxmium girth
 # 6. Filter rows where the length is >= the minimum length
 # 7. Filter rows where the lenth is <= the maximum length
+# 8. Filter rows where the selected density is supported
+# 9. Filter rows where the user length is >= the minimum internal length
 filtered_df = df[
     # BC recommendations
     (df['Max Internal Length'] >= user_length) & 
@@ -201,7 +249,11 @@ filtered_df = df[
     (df['Girth'] >= selected_girth[0]) &
     (df['Girth'] <= selected_girth[1]) &
     (df['Length'] >= selected_length[0]) &
-    (df['Length'] <= selected_length[1]) 
+    (df['Length'] <= selected_length[1]) &
+    # Density filtering
+    (df['Supported Densities'].apply(lambda x: selected_density in x)) &
+    # Minimum internal length check
+    (df['Min Internal Length'] <= user_length)
 ]
 
 # show the header and count
@@ -218,10 +270,12 @@ if show_more:
         'Model',
         'URL',
         'Length', 
+        'Min Internal Length',
         'Max Internal Length', 
         'Girth', 
         'Diameter', 
-        'Girth Category', 
+        'Girth Category',
+        'Supported Densities',
         'Recommended Internal Dimensions', 
         'Girth When Worn'
     ]
@@ -230,7 +284,8 @@ else:
         'Model',
         'URL',
         'Length', 
-        'Girth', 
+        'Girth',
+        'Supported Densities',
         'Recommended Internal Dimensions', 
         'Girth When Worn'
     ]
