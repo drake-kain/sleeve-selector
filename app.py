@@ -112,9 +112,9 @@ def process_sleeve_data(data, user_diameter, selected_density):
         
         # Check each density type with proper NaN/empty string handling
         if is_valid_value(obj.get('max_internal_length_single_density')):
-            supported_densities.append("Single Density")
+            supported_densities.append("Single")
         if is_valid_value(obj.get('max_internal_length_double_density')):
-            supported_densities.append("Dual Density")
+            supported_densities.append("Dual")
         if is_valid_value(obj.get('max_internal_length_triple_zone')):
             supported_densities.append("Triple Zone")
         if is_valid_value(obj.get('max_internal_length_triple_zone_triple_density')):
@@ -125,7 +125,7 @@ def process_sleeve_data(data, user_diameter, selected_density):
         # Set Max Internal Length based on selected density
         if selected_density == "Single" and is_valid_value(obj.get('max_internal_length_single_density')):
             obj['Max Internal Length'] = obj['max_internal_length_single_density']
-        elif selected_density == "Double" and is_valid_value(obj.get('max_internal_length_double_density')):
+        elif selected_density == "Dual" and is_valid_value(obj.get('max_internal_length_double_density')):
             obj['Max Internal Length'] = obj['max_internal_length_double_density']
         elif selected_density == "Triple Zone" and is_valid_value(obj.get('max_internal_length_triple_zone')):
             obj['Max Internal Length'] = obj['max_internal_length_triple_zone']
@@ -169,15 +169,22 @@ with col2:
         help="Measure from base to tip, not pressing into the pubic bone"
     )
 
-# Radio button for density
-density_options = ["Single", "Double", "Triple Zone", "TZTD"]
-selected_density = st.radio(
+# Mapping of display labels to internal values for densities
+density_label_to_value = {
+    "Single Density": "Single",
+    "Dual Density": "Dual",
+    "Triple Zone": "Triple Zone",
+    "TDTZ": "TDTZ"
+}
+density_labels = list(density_label_to_value.keys())
+selected_label = st.radio(
     "Desired Sleeve Density",
-    density_options,
-    index=0,  # Default to Single density
+    density_labels,
+    index=0,  # Default to Single Density
     horizontal=True,  # Display radio buttons horizontally
     help="Select your preferred density. Products will be shown if they support the selected density."
 )
+selected_density = density_label_to_value[selected_label]
 
 with st.expander("Advanced Filters"):
     # Slider for girth
