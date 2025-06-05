@@ -312,8 +312,7 @@ else:
             "Recommended Internal Dimensions": "Rec. Internal Dimensions",
         },
         hide_index=True, 
-        use_container_width=True,
-        # column_order=displayed_column_order,
+        use_container_width=True
     )
 
 # Footer
