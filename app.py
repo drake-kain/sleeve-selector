@@ -112,13 +112,13 @@ def process_sleeve_data(data, user_diameter, selected_density):
         
         # Check each density type with proper NaN/empty string handling
         if is_valid_value(obj.get('max_internal_length_single_density')):
-            supported_densities.append("Single")
+            supported_densities.append("Single Density")
         if is_valid_value(obj.get('max_internal_length_double_density')):
-            supported_densities.append("Double")
+            supported_densities.append("Dual Density")
         if is_valid_value(obj.get('max_internal_length_triple_zone')):
             supported_densities.append("Triple Zone")
         if is_valid_value(obj.get('max_internal_length_triple_zone_triple_density')):
-            supported_densities.append("TZTD")
+            supported_densities.append("TDTZ")
             
         obj['Supported Densities'] = supported_densities
         
