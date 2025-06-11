@@ -129,7 +129,7 @@ def process_sleeve_data(data, user_diameter, selected_density):
             obj['Max Internal Length'] = obj['max_internal_length_double_density']
         elif selected_density == "Triple Zone" and is_valid_value(obj.get('max_internal_length_triple_zone')):
             obj['Max Internal Length'] = obj['max_internal_length_triple_zone']
-        elif selected_density == "TZTD" and is_valid_value(obj.get('max_internal_length_triple_zone_triple_density')):
+        elif selected_density == "TDTZ" and is_valid_value(obj.get('max_internal_length_triple_zone_triple_density')):
             obj['Max Internal Length'] = obj['max_internal_length_triple_zone_triple_density']
         else:
             # Fall back to old calculation method if selected density is not supported
