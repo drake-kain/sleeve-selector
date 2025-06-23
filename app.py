@@ -4,6 +4,31 @@ import json
 import math
 from streamlit_gsheets import GSheetsConnection
 
+# Configure Streamlit page settings including title, icon, and menu items with links to support and documentation
+st.set_page_config(
+    page_title="Sleeve Selector",
+    page_icon="🍆",
+    menu_items={
+        'About': f"""
+        Input your length and diameter to show compatible sleeves. A compatible sleeve
+        has a total diameter larger than you, a max interior length as long as you, and an opening
+        small enough or large enough to give you a proper, snug fit.
+                
+        We will also show the total girth of the sleeve when worn with the recommended diameter.
+        No more guesswork when comparing models!
+        """
+    }
+)
+
+# Title 
+st.title('Sleeve Selector :eggplant:')
+st.info(''' 
+        Find the perfect sleeve and fit according to Blissfull Creation's [How to Order](https://blissfullcreations.com/pages/how-to-order) guide. 
+          
+        Select your penis dimensions below to find compatible sized sleeves, while also being provided
+        a Recommended Internal Dimensions for ordering.
+    ''')
+
 # Generate floating point ranges with specified step size, useful for creating measurement options
 def frange(start, stop, step):
     while start < stop:
@@ -42,31 +67,6 @@ def get_recommended_opening_diameter(user_diameter, category_name):
             return range_item['recommendation']
     
     return None
-
-# Configure Streamlit page settings including title, icon, and menu items with links to support and documentation
-st.set_page_config(
-    page_title="Sleeve Selector",
-    page_icon="🍆",
-    menu_items={
-        'About': f"""
-        Input your length and diameter to show compatible sleeves. A compatible sleeve
-        has a total diameter larger than you, a max interior length as long as you, and an opening
-        small enough or large enough to give you a proper, snug fit.
-                
-        We will also show the total girth of the sleeve when worn with the recommended diameter.
-        No more guesswork when comparing models!
-        """
-    }
-)
-
-# Title 
-st.title('Sleeve Selector :eggplant:')
-st.info(''' 
-        Find the perfect sleeve and fit according to Blissfull Creation's [How to Order](https://blissfullcreations.com/pages/how-to-order) guide. 
-          
-        Select your penis dimensions below to find compatible sized sleeves, while also being provided
-        a Recommended Internal Dimensions for ordering.
-    ''')
 
 # Pre-compute and cache measurement options to avoid recalculating on every page load
 @st.cache_data
@@ -179,6 +179,7 @@ with col1:
     user_diameter = st.select_slider(
         "Erect Penis Diameter in Inches",
         diameter_options,
+        value=1.5,
         help="Measure at the base, middle, and tip, then take the average"
     )
    
@@ -187,6 +188,7 @@ with col2:
     user_length = st.select_slider(
         "Erect Penis Length in Inches",
         length_options,
+        value=4.5,
         help="Measure from base to tip, not pressing into the pubic bone"
     )
 
