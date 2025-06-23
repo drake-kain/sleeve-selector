@@ -25,11 +25,11 @@ def get_recommended_opening_diameter(user_diameter, category_name):
             {'min': 1.5, 'max': 1.825, 'recommendation': 1.125},
             {'min': 1.825, 'max': 2, 'recommendation': 1.25},
             {'min': 2, 'max': 2.15, 'recommendation': 1.375},
-            {'min': 2.15, 'max': 100, 'recommendation': 'N/A'},
+            {'min': 2.15, 'max': 100, 'recommendation': 0},
         ]
     else:
         ranges = [
-            {'min': 1, 'max': 1.25, 'recommendation': 'N/A'},
+            {'min': 1, 'max': 1.25, 'recommendation': 0},
             {'min': 1.25, 'max': 1.4, 'recommendation': 1.0},
             {'min': 1.4, 'max': 1.6, 'recommendation': 1.125},
             {'min': 1.6, 'max': 1.875, 'recommendation': 1.25},
@@ -71,7 +71,7 @@ st.info('''
 # Pre-compute and cache measurement options to avoid recalculating on every page load
 @st.cache_data
 def get_select_options():
-    diameter_options = [round(x, 3) for x in list(frange(1, 3.125, 0.125))]
+    diameter_options = [round(x, 3) for x in list(frange(1, 2.625, 0.125))]
     length_options = [round(x, 2) for x in list(frange(2, 9.25, 0.25))]
     return diameter_options, length_options
 
@@ -86,7 +86,9 @@ def load_gsheets_data():
             usecols=['Model', 'Length', 'Girth', 'Girth Category', 'Diameter', 'URL', 
                     'min_internal_length', 'max_internal_length_single_density',
                     'max_internal_length_double_density', 'max_internal_length_triple_zone_triple_density',
-                    'max_internal_length_triple_zone'],
+                    'max_internal_length_triple_zone', 'min_internal_diameter', 'max_internal_diameter_single_density',
+                    'max_internal_diameter_double_density', 'max_internal_diameter_triple_zone', 'max_internal_diameter_triple_zone_triple_density'
+                    ],
         )
         return data.to_dict(orient="records")
     except Exception as e:
@@ -124,13 +126,13 @@ def process_sleeve_data(data, user_diameter, selected_density):
         
         # Set Max Internal Length based on selected density
         if selected_density == "Single" and is_valid_value(obj.get('max_internal_length_single_density')):
-            obj['Max Internal Length'] = obj['max_internal_length_single_density']
+            obj['Max Internal Length'] = obj.get('max_internal_length_single_density')
         elif selected_density == "Dual" and is_valid_value(obj.get('max_internal_length_double_density')):
-            obj['Max Internal Length'] = obj['max_internal_length_double_density']
+            obj['Max Internal Length'] = obj.get('max_internal_length_double_density')
         elif selected_density == "Triple Zone" and is_valid_value(obj.get('max_internal_length_triple_zone')):
-            obj['Max Internal Length'] = obj['max_internal_length_triple_zone']
+            obj['Max Internal Length'] = obj.get('max_internal_length_triple_zone')
         elif selected_density == "TDTZ" and is_valid_value(obj.get('max_internal_length_triple_zone_triple_density')):
-            obj['Max Internal Length'] = obj['max_internal_length_triple_zone_triple_density']
+            obj['Max Internal Length'] = obj.get('max_internal_length_triple_zone_triple_density')
         else:
             # Fall back to old calculation method if selected density is not supported
             if 'girthy' in obj['Model'].lower():
@@ -144,6 +146,25 @@ def process_sleeve_data(data, user_diameter, selected_density):
             
         # Set Min Internal Length
         obj['Min Internal Length'] = obj.get('min_internal_length') if is_valid_value(obj.get('min_internal_length')) else 0
+
+        # Set Max Internal Diameter based on selected density
+        max_diameter_field_map = {
+            "Single": "max_internal_diameter_single_density",
+            "Dual": "max_internal_diameter_double_density",
+            "Triple Zone": "max_internal_diameter_triple_zone",
+            "TDTZ": "max_internal_diameter_triple_zone_triple_density"
+        }
+        
+        max_diameter_field = max_diameter_field_map.get(selected_density)
+
+        if max_diameter_field and is_valid_value(obj.get(max_diameter_field)):
+            obj['Max Internal Diameter'] = obj.get(max_diameter_field)
+        else:
+            # Fallback to single density if the specific density field is not present or invalid
+            obj['Max Internal Diameter'] = obj.get('max_internal_diameter_single_density')
+
+        # Set Min Internal Diameter
+        obj['Min Internal Diameter'] = obj.get('min_internal_diameter') if is_valid_value(obj.get('min_internal_diameter')) else 0.9
             
         processed_data.append(obj)
     return processed_data
@@ -209,19 +230,16 @@ with st.spinner('Loading products...'):
 
 # Calculate final girth when sleeve is worn, accounting for both internal diameter and sleeve wall thickness
 def get_girth_when_worn(internal_diameter, sleeve_diameter):
-    if internal_diameter == 'N/A':
-        return 'N/A'
-    else:
-        # get shaft thickness 
-        sleeve_thickness = sleeve_diameter - internal_diameter
-        # get shaft + user diameter for total diameter
-        total_diameter = sleeve_thickness + user_diameter
-        # subtract 10% for compression
-        squished_diameter = total_diameter * 0.9
-        # convert diameter back to circumference
-        total_circumference = (squished_diameter * math.pi) if squished_diameter >= sleeve_diameter else (sleeve_diameter * math.pi)
-        # return the final worn circumference
-        return round(total_circumference, 2)
+    # get shaft thickness 
+    sleeve_thickness = sleeve_diameter - internal_diameter
+    # get shaft + user diameter for total diameter
+    total_diameter = sleeve_thickness + user_diameter
+    # subtract 10% for compression
+    squished_diameter = total_diameter * 0.9
+    # convert diameter back to circumference
+    total_circumference = (squished_diameter * math.pi) if squished_diameter >= sleeve_diameter else (sleeve_diameter * math.pi)
+    # return the final worn circumference
+    return round(total_circumference, 2)
 
 # Round user length to nearest 0.5" increment to match standard sleeve sizing options
 def round_user_length_to_nearest_half(number):
@@ -247,21 +265,24 @@ df = pd.DataFrame(data)
 # 7. Filter rows where the lenth is <= the maximum length
 # 8. Filter rows where the selected density is supported
 # 9. Filter rows where the user length is >= the minimum internal length
+# 10. Filter rows where the recommended diameter is >= the minimum internal diameter
+# 11. Filter rows where the recommended diameter is <= the maximum internal diameter
 filtered_df = df[
-    # BC recommendations
+    # Density filtering
+    (df['Supported Densities'].apply(lambda x: selected_density in x)) &
+    # BC recommendations for Length and Diameter
     (df['Max Internal Length'] >= user_length) & 
-    (user_diameter < df['Diameter']) & 
-    (df['Recommended Diameter'] != 'N/A') &
+    (df['Min Internal Diameter'] <= df['Recommended Diameter']) &
+    (df['Max Internal Diameter'] >= df['Recommended Diameter']) &
     # User filtering
     (df['Girth'] >= selected_girth[0]) &
     (df['Girth'] <= selected_girth[1]) &
     (df['Length'] >= selected_length[0]) &
     (df['Length'] <= selected_length[1]) &
-    # Density filtering
-    (df['Supported Densities'].apply(lambda x: selected_density in x)) &
     # Minimum internal length check
     (df['Min Internal Length'] <= user_length)
 ]
+
 
 # show the header and count
 header_text =f":green[{len(filtered_df)}] Compatible Sleeves"
@@ -279,6 +300,8 @@ if show_more:
         'Length', 
         'Min Internal Length',
         'Max Internal Length', 
+        'Min Internal Diameter',
+        'Max Internal Diameter',
         'Girth', 
         'Diameter', 
         'Girth Category',
