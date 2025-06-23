@@ -20,6 +20,15 @@ st.set_page_config(
     }
 )
 
+# slightly increase default page width for centered streamlit
+st.markdown("""
+        <style>
+        .stMainBlockContainer {
+            max-width: 50rem;
+        }
+        </style>
+        """, unsafe_allow_html=True)
+
 # Title 
 st.title('Sleeve Selector :eggplant:')
 st.info(''' 
@@ -307,9 +316,9 @@ if show_more:
         'Girth', 
         'Diameter', 
         'Girth Category',
-        'Supported Densities',
         'Recommended Internal Dimensions', 
-        'Girth When Worn'
+        'Girth When Worn',
+        'Supported Densities',
     ]
 else:
     displayed_column_order = [
@@ -317,9 +326,9 @@ else:
         'URL',
         'Length', 
         'Girth',
-        'Supported Densities',
         'Recommended Internal Dimensions', 
-        'Girth When Worn'
+        'Girth When Worn',
+        'Supported Densities'
     ]
 
 # Display the filtered dataframe
@@ -334,7 +343,7 @@ else:
                 "Store Link",
                 display_text="Link"
             ),
-            "Recommended Internal Dimensions": "Rec. Internal Dimensions",
+            "Recommended Internal Dimensions": "Rec. Internal Size",
         },
         hide_index=True, 
         use_container_width=True
