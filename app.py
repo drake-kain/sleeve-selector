@@ -82,7 +82,7 @@ def load_gsheets_data():
         conn = st.connection("gsheets", type=GSheetsConnection)
         # Only select the columns we need
         data = conn.read(
-            worksheet="DEVELOPMENT_PRODUCT_LIST",
+            worksheet="PRODUCTION_PRODUCT_LIST",
             usecols=['Model', 'Length', 'Girth', 'Girth Category', 'Diameter', 'URL', 
                     'min_internal_length', 'max_internal_length_single_density',
                     'max_internal_length_double_density', 'max_internal_length_triple_zone_triple_density',
