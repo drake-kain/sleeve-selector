@@ -92,12 +92,24 @@ def load_gsheets_data():
         # Only select the columns we need
         data = conn.read(
             worksheet="PRODUCTION_PRODUCT_LIST",
-            usecols=['Model', 'Length', 'Girth', 'Girth Category', 'Diameter', 'URL', 
-                    'min_internal_length', 'max_internal_length_single_density',
-                    'max_internal_length_double_density', 'max_internal_length_triple_zone_triple_density',
-                    'max_internal_length_triple_zone', 'min_internal_diameter', 'max_internal_diameter_single_density',
-                    'max_internal_diameter_double_density', 'max_internal_diameter_triple_zone', 'max_internal_diameter_triple_zone_triple_density'
-                    ],
+            usecols=[
+                'Model',
+                'Length',
+                'Girth',
+                'Girth Category',
+                'Diameter',
+                'URL',
+                'min_internal_length',
+                'max_internal_length_single_density',
+                'max_internal_length_double_density',
+                'max_internal_length_triple_zone_triple_density',
+                'max_internal_length_triple_zone',
+                'min_internal_diameter',
+                'max_internal_diameter_single_density',
+                'max_internal_diameter_double_density',
+                'max_internal_diameter_triple_zone',
+                'max_internal_diameter_triple_zone_triple_density',
+            ],
         )
         return data.to_dict(orient="records")
     except Exception as e:
